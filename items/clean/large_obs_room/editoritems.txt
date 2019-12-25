@@ -1,0 +1,91 @@
+"Item"
+   {
+      "Type"      "ITEM_DS_OBSERVATION_ROOM_4"
+      "Editor"
+      {
+         "SubType"
+         {
+            "Name"         "4x1 observation room"
+            "Model"
+            {
+               "ModelName"      "observationroom.3ds"
+               "TextureName"      "observationroom.png"
+            }
+            "Palette"
+            {
+               "Tooltip"   "4x1 observation room"
+               "Image"      "palette/decosta/observation_room.png"
+               "Position"   "3 2 0"
+            }
+			"Sounds"
+			{
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+         }
+         "MovementHandle"      "HANDLE_NONE"
+         "InvalidSurface"      "CEILING FLOOR"
+         "DesiredFacing"         "DESIRES_UP"
+      }
+      "Exporting"
+      {
+         "Instances"
+         {
+            "0"
+            {
+               "Name"            "instances/bee2/decosta/bisqwit_observation_room_512x256.vmf"
+               "EntityCount"      "33"
+               "BrushCount"      "15"
+               "BrushSideCount"   "119"
+            }
+         }
+
+         "TargetName"      "observationroom_huge"
+         "Offset"      "64 64 64"
+         "OccupiedVoxels"
+         {
+            "Voxel"
+            {
+               "Pos"      "0 0 0"
+               "Surface"
+               {
+                  "Normal"   "0 0 1"
+               }
+            }
+            "Voxel"
+            {
+               "Pos"      "0 1 0"
+               "Surface"
+               {
+                  "Normal"   "0 0 1"
+               }
+            }
+            "Voxel"
+            {
+               "Pos"      "0 -1 0"
+               "Surface"
+               {
+                  "Normal"   "0 0 1"
+               }
+            }
+            "Voxel"
+            {
+               "Pos"      "0 -2 0"
+               "Surface"
+               {
+                  "Normal"   "0 0 1"
+               }
+            }
+         }
+         "EmbeddedVoxels"
+         {
+            "Volume"
+            {
+               "Pos1"   "0 -2 0"
+               "Pos2"   "0 1 -1"
+            }
+         }
+      }
+   }

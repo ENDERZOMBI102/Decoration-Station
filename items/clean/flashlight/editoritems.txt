@@ -1,0 +1,70 @@
+	"Item"
+	{
+		"Filter"		"ENDERZOMBI102"
+		"Author"		"ENDERZOMBI102"
+		"Type"			"ITEM_DS_FLASHLIGHT"
+		"Type"			"ITEM_FLASHLIGHT"
+		"Editor"
+		{
+			"SubType"
+			{
+				"Name"		"FlashLight"
+				"Model"
+				{
+					"ModelName"		"trigger_once.3ds"
+					"TextureName"	"arm_4panel.png"
+				}
+				"Palette"
+				{
+					"Tooltip"		"FlashLight"
+					"Image"			"palette/decosta/flashlight.png"
+					"Position"		"2 2 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"MovementHandle"		"HANDLE_NONE"
+			"InvalidSurface" 		"CEILING"
+			"CanAnchorOnGoo"		"0"
+			"CanAnchorOnBarriers" 	"1"
+		}
+		"Properties"
+		{
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"				"instances/bee2/decosta/flashlight.vmf"
+					"EntityCount"		"7"
+					"BrushCount"		"3"
+					"BrushSideCount"	"0"
+				}
+			}
+
+			"TargetName"		"router"
+			"Offset"		"64 64 64"
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"CollideType"		"COLLIDE_NOTHING"
+					"CollideAgainst"	"COLLIDE_ANTLINES"
+
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+		
+			}
+		}
+	}

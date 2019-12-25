@@ -1,0 +1,12 @@
+"Properties"
+{
+	"Authors" 		"Flash4433"
+	"Tags" 			"Portal 2;Geometry"
+	"Description" 	"You want a toilet? take this!"
+	"infoURL" 		"none"
+	"ent_count" 	"0"
+	"Icon"
+	{
+		"0" "decosta/toilet64.png"
+	}
+}
