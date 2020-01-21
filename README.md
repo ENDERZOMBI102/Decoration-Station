@@ -1,3 +1,4 @@
 # Decoration Station
- 
-a package for intern decorators!
+This package include severeal decoration items
+
+[return to home](https://github.com/ENDERZOMBI102/BEE2_packages)

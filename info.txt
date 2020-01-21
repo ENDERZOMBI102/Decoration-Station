@@ -1,94 +1,94 @@
-"ID"   "DecoSta"
-"Name" "Decoration Station Package, v0.1"
-"Desc" "This package contains varius decoration items!"
+"ID"   "DeCosta"
+"Name" "Decoration Station Package"
+"Desc" "This package contains various decoration items!"
 
 "Item"
-{
-	"ID" "ITEM_DS_VERTICAL_DOOR"
+	{
+	"ID" "ITEM_VERTICAL_DOOR"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
 	"Version"
-	{
+		{
 		"ID"   "VER_DEFAULT"
 		"Name" "Regular"
 		"Styles"
-		{
-			"ANY_STYLE" "clean\vertical_door"
+			{
+			"ANY_STYLE" "vertical_door"
+			}
 		}
 	}
-}
 	
 "Item"
-{
-	"ID" "ITEM_DS_FLASHLIGHT"
+	{
+	"ID" "ITEM_FLASHLIGHT"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
 	"Version"
-	{
+		{
 		"ID"   "VER_DEFAULT"
 		"Name" "Regular"
 		"Styles"
-		{
-			"ANY_STYLE" "clean\flashlight"
+			{
+			"ANY_STYLE" "flashlight"
+			}
 		}
 	}
-}
 	
 "Item"
-{
-	"ID" "ITEM_DS_OBSERVATION_ROOM_4"
+	{
+	"ID" "ITEM_OBSERVATION_ROOM_4x1"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
 	"Version"
-	{
+		{
 		"ID"   "VER_DEFAULT"
 		"Name" "Regular"
 		"Styles"
-		{
-			"ANY_STYLE" "clean\large_obs_room"
+			{
+			"ANY_STYLE" "large_obs_room"
+			}
 		}
 	}
-}
 	
 "Item"
-{
-	"ID" "ITEM_DS_TOILET"
+	{
+	"ID" "ITEM_TOILET"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
 	"Version"
-	{
+		{
 		"ID"   "VER_DEFAULT"
 		"Name" "Regular"
 		"Styles"
-		{
-			"ANY_STYLE" "overgrown/toilet"
+			{
+			"ANY_STYLE" "toilet"
+			}
 		}
 	}
-}
 	
 "Item"
-{
-	"ID" "ITEM_DS_CEILING_LIGHT"
+	{
+	"ID" "ITEM_CEILING_LIGHT"
 	"AllDescLast" "0"
 	"needsUnlock" "0"
 	
 	"Version"
-	{
+		{
 		"ID"   "VER_DEFAULT"
 		"Name" "Regular"
 		"Styles"
-		{
-			"BEE2_CLEAN" "clean\ceiling_light"
-			"BEE2_PORTAL_1" "portal1\ceiling_light"
-			"BEE2_OVERGROWN" "overgrown\ceiling_light"
-			"BEE2_1950s" "1950\ceiling_light"
-			"BEE2_1960s" "1950\ceiling_light"
-			"BEE2_1970s" "1970\ceiling_light"
-			"BEE2_1980s" "1980\ceiling_light"
+			{
+			"BEE2_CLEAN" "ceiling_light_clean"
+			"BEE2_PORTAL_1" "ceiling_light_p1"
+			"BEE2_OVERGROWN" "ceiling_light_over"
+			"BEE2_1950s" "ceiling_light_50"
+			"BEE2_1960s" "ceiling_light_50"
+			"BEE2_1970s" "ceiling_light_70"
+			"BEE2_1980s" "ceiling_light_80"
+			}
 		}
 	}
-}
