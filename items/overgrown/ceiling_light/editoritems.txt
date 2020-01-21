@@ -11,7 +11,7 @@
 			"Model"
 			{
 				"ModelName"		"tspen_ceil_light.3ds"
-				"TextureName"		"observationroom.png"
+				"TextureName"	"observationroom.png"
 			}
 			"Palette"
 			{
@@ -42,7 +42,7 @@
 				"BrushSideCount"	"54"
 			}
 		}
-			"TargetName"		"cl"
+		"TargetName"	"cl"
 		"Offset"		"64 64 64"
 		"OccupiedVoxels"
 		{

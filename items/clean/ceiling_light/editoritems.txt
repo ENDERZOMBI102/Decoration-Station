@@ -16,7 +16,7 @@
 			"Palette"
 			{
 				"Tooltip"	"CEILING LIGHT"
-				"Image"		"palette/placeholder.png"
+				"Image"		"palette/decosta/placeholder.png"
 				"Position"	"3 5 0"
 			}
 			"Sounds"

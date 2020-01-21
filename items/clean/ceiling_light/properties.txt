@@ -7,6 +7,6 @@
 	"ent_count" 	"5"
 	"Icon"
 	{
-		"0" "placeholder.png"
+		"0" "decosta/placeholder.png"
 	}
 }
