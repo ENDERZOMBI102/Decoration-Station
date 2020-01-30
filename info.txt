@@ -5,30 +5,47 @@
 "Item"
 	{
 	"ID" "ITEM_VERTICAL_DOOR"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "vertical_door"
 			}
 		}
 	}
+
+"Item"
+	{
+	"ID" "ITEM_FLOATING_PANEL"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "floating_panel"
+			}
+		}
+	}
+"BrushTemplate"
+	{
+	"ID"    "BEE2_FLOATING_PANEL_CLEAN_TOP"
+	"file"  "floating_panela.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"    "BEE2_FLOATING_PANEL_CLEAN_MIDDLE"
+	"file"  "floating_panelb.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"    "BEE2_FLOATING_PANEL_CLEAN_BOTTOM"
+	"file"  "floating_panelc.vmf"
+	}
 	
 "Item"
 	{
 	"ID" "ITEM_FLASHLIGHT"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "flashlight"
@@ -39,13 +56,8 @@
 "Item"
 	{
 	"ID" "ITEM_OBSERVATION_ROOM_4x1"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "large_obs_room"
@@ -56,13 +68,8 @@
 "Item"
 	{
 	"ID" "ITEM_TOILET"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"ANY_STYLE" "toilet"
@@ -73,13 +80,8 @@
 "Item"
 	{
 	"ID" "ITEM_CEILING_LIGHT"
-	"AllDescLast" "0"
-	"needsUnlock" "0"
-	
 	"Version"
 		{
-		"ID"   "VER_DEFAULT"
-		"Name" "Regular"
 		"Styles"
 			{
 			"BEE2_CLEAN" "ceiling_light_clean"
