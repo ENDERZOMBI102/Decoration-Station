@@ -89,21 +89,21 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/floating_panel.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/floating_panel.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/items/floating_panel.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/floating_panel.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"2"
 				{
-					"Name"				"instances/BEE2/clean/items/floating_panel.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/floating_panel.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
