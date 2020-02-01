@@ -1,6 +1,7 @@
 "Item"
 	{
 		"Type"			"ITEM_FLOATING_PANEL"
+		"ItemClass"		"ItemButtonFloor"
 		"Editor"
 		{
 			"SubTypeProperty"		"ButtonType"
