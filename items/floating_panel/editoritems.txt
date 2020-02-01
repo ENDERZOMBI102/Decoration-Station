@@ -52,7 +52,7 @@
 				"Name"		"Floating Panel Bottom"
 				"Model"
 				{
-					"ModelName"		"destination_target_outline.3ds"
+					"ModelName"		"panel_pushout.3ds"
 				}
 				"Palette"
 				{
