@@ -27,18 +27,13 @@
 	}
 "BrushTemplate"
 	{
-	"ID"    "BEE2_FLOATING_PANEL_CLEAN_TOP"
-	"file"  "floating_panela.vmf"
+	"ID"    "BEE2_FLOATING_PANEL_CLEAN_GRID"
+	"file"  "floating_panelgrid.vmf"
 	}
 "BrushTemplate"
 	{
-	"ID"    "BEE2_FLOATING_PANEL_CLEAN_MIDDLE"
-	"file"  "floating_panelb.vmf"
-	}
-"BrushTemplate"
-	{
-	"ID"    "BEE2_FLOATING_PANEL_CLEAN_BOTTOM"
-	"file"  "floating_panelc.vmf"
+	"ID"    "BEE2_FLOATING_PANEL_CLEAN_OPEN"
+	"file"  "floating_panelopen.vmf"
 	}
 	
 "Item"

@@ -80,8 +80,13 @@
 			}
 			"StartReversed"
 			{
-				"DefaultValue"	"1"
+				"DefaultValue"	"0"
 				"Index"			"1"
+			}
+			"StartOpen"
+			{
+				"DefaultValue"	"1"
+				"Index"			"2"
 			}
 		}
 		"Exporting"
@@ -90,21 +95,41 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/decosta/floating_panel.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/floating_bottom_white.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
 				"1"
 				{
-					"Name"				"instances/BEE2/clean/items/decosta/floating_panel.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/floating_bottom_black.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"1"
+				}
+				"2"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/floating_middle_white.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
 				}
-				"2"
+				"3"
 				{
-					"Name"				"instances/BEE2/clean/items/decosta/floating_panel.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/floating_middle_black.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"1"
+					"BrushSideCount"	"6"
+				}
+				"4"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/floating_top_white.vmf"
+					"EntityCount"		"1"
+					"BrushCount"		"1"
+					"BrushSideCount"	"6"
+				}
+				"5"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/floating_top_black.vmf"
 					"EntityCount"		"1"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
