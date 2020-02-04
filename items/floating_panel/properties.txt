@@ -12,6 +12,7 @@
 	"" "* Ball - The Panel will be located on the bottom of the voxel."
 	"" ""
 	"" "* Start Reversed - If unchecked, the panel will be white. If checked, the panel will be black."
+	"" "* Start Reversed - Swaps texture."
 	}
 	"infoURL" "none"
 	"ent_count" "1"
@@ -20,8 +21,8 @@
 	"Icon"
 		{
 			"all"	"clean/floating_panels.png"
-			"0"		"clean/floating_panela.png"
+			"0"		"clean/floating_panelc.png"
 			"1"		"clean/floating_panelb.png"
-			"2"		"clean/floating_panelc.png"
+			"2"		"clean/floating_panela.png"
 		}
 	}

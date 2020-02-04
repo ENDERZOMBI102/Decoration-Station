@@ -7,15 +7,15 @@
 			"SubTypeProperty"		"ButtonType"
 			"SubType"
 			{
-				"Name"			"Floating Panel Top"
+				"Name"			"Floating Panel Bottom"
 				"Model"
 				{
-					"ModelName"		"destination_target_outline.3ds"
+					"ModelName"		"radelite_floating_panel_bottom.3ds"
 				}
 				"Palette"
 				{
-					"Tooltip"		"FLOATING PANEL TOP"
-					"Image"			"palette/clean/floating_panela.png"
+					"Tooltip"		"FLOATING PANEL BOTTOM"
+					"Image"			"palette/clean/floating_panelc.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
@@ -31,7 +31,7 @@
 				"Name"		"Floating Panel Middle"
 				"Model"
 				{
-					"ModelName"		"destination_target_outline.3ds"
+					"ModelName"		"radelite_floating_panel_middle.3ds"
 				}
 				"Palette"
 				{
@@ -49,15 +49,15 @@
 			}
 			"SubType"
 			{
-				"Name"		"Floating Panel Bottom"
+				"Name"		"Floating Panel Top"
 				"Model"
 				{
-					"ModelName"		"panel_pushout.3ds"
+					"ModelName"		"radelite_floating_panel_top.3ds"
 				}
 				"Palette"
 				{
-					"Tooltip"		"FLOATING PANEL BOTTOM"
-					"Image"			"palette/clean/floating_panelc.png"
+					"Tooltip"		"FLOATING PANEL TOP"
+					"Image"			"palette/clean/floating_panela.png"
 					"Position"		"3 0 0"
 				}
 				"Sounds"
