@@ -1,6 +1,6 @@
 "Properties"
 	{
-	"Authors" "Flash4433"
+	"Authors" "Flash4433, Libbybapa"
 	"Tags" "Portal 2;Geometry"
 	"Description"
 	{
