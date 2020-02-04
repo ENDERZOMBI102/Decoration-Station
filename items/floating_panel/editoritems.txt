@@ -10,7 +10,7 @@
 				"Name"			"Floating Panel Bottom"
 				"Model"
 				{
-					"ModelName"		"radelite_floating_panel_bottom.3ds"
+					"ModelName"		"decosta_floating_panel_bottom.3ds"
 				}
 				"Palette"
 				{
@@ -31,7 +31,7 @@
 				"Name"		"Floating Panel Middle"
 				"Model"
 				{
-					"ModelName"		"radelite_floating_panel_middle.3ds"
+					"ModelName"		"decosta_floating_panel_middle.3ds"
 				}
 				"Palette"
 				{
@@ -52,7 +52,7 @@
 				"Name"		"Floating Panel Top"
 				"Model"
 				{
-					"ModelName"		"radelite_floating_panel_top.3ds"
+					"ModelName"		"decosta_floating_panel_top.3ds"
 				}
 				"Palette"
 				{
