@@ -16,7 +16,7 @@
 	}
 	"infoURL" "none"
 	"ent_count" "1"
-	"all_icon"		"palette/grouped/floating_panels.png"
+	"all_icon"		"palette/clean/grouped/floating_panels.png"
 	"all_name"		"FLOATING PANELS"
 	"Icon"
 		{
