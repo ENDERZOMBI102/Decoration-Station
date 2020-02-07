@@ -62,12 +62,12 @@
 	
 "Item"
 	{
-	"ID" "ITEM_TOILET"
+	"ID" "ITEM_DECOSTA_PROP_ITEM"
 	"Version"
 		{
 		"Styles"
 			{
-			"ANY_STYLE" "toilet"
+			"ANY_STYLE" "prop_item_clean"
 			}
 		}
 	}
