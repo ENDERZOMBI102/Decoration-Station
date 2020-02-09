@@ -1,0 +1,185 @@
+"Item"
+{
+"Type" "ITEM_ADVANCED_PANEL"
+"ItemClass"	"ItemButtonFloor"
+"Editor"
+	{
+	"SubTypeProperty" "CubeType"
+	"SubType"
+		{
+		"Name" "Advanced Panel"
+		"Model"
+			{
+			"ModelName" "bee2_block_special.3ds"
+			}
+		"Palette"
+			{
+			"Tooltip" "ADVANCED PANEL"
+			"Image" "palette/clean/floating_panels.png"
+			}
+		"Sounds"
+			{
+			"SOUND_CREATED" "P2Editor.PlaceButton"
+			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+			"SOUND_DELETED" "P2Editor.RemoveButton"
+			}
+		}
+	"SubType"
+		{
+		"Name" "Panel Offset 1/4"
+		"Model"
+			{
+			"ModelName" "bee2_block_flat_quart.3ds"
+			}
+		"Sounds"
+			{
+			"SOUND_CREATED" "P2Editor.PlaceButton"
+			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+			"SOUND_DELETED" "P2Editor.RemoveButton"
+			}
+		}
+	"SubType"
+		{
+		"Name" "Panel Offset 1/2"
+		"Model"
+			{
+			"ModelName" "bee2_block_flat_half.3ds"
+			}
+		"Sounds"
+			{
+			"SOUND_CREATED" "P2Editor.PlaceButton"
+			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+			"SOUND_DELETED" "P2Editor.RemoveButton"
+			}
+		}
+	"SubType"
+		{
+		"Name" "Panel Offset 3/4"
+		"Model"
+			{
+			"ModelName" "bee2_block_flat_3quart.3ds"
+			}
+		"Sounds"
+			{
+			"SOUND_CREATED" "P2Editor.PlaceButton"
+			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+			"SOUND_DELETED" "P2Editor.RemoveButton"
+			}
+		}
+	"SubType"
+		{
+		"Name" "Panel Offset 1"
+		"Model"
+			{
+			"ModelName" "bee2_angled_60.mdl"
+			}
+		"Sounds"
+			{
+			"SOUND_CREATED" "P2Editor.PlaceButton"
+			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+			"SOUND_DELETED" "P2Editor.RemoveButton"
+			}
+		}
+		"MovementHandle" "NONE"
+		"DesiredFacing" "DESIRES_UP"
+	}
+"Properties"
+	{
+	"ButtonType"
+		{
+		"DefaultValue" "0"
+		"Index" "0"
+		}
+	"CubeType"
+		{
+		"DefaultValue" "0"
+		"Index" "1"
+		}
+	"StartOpen"
+		{
+		"DefaultValue" "1"
+		"Index" "2"
+		}
+	"StartReversed"
+		{
+		"DefaultValue"  "0"
+		"Index" "3"
+		}
+	"StartEnabled"
+		{
+		"DefaultValue" "1"
+		"Index" "4"
+		}
+	"$block_temp"
+		{
+		"DefaultValue" "TEMP_LIB_EIGHTH:block_8"
+		"Index" "5"
+		}
+	"$offset_pos"
+		{
+		"DefaultValue" "0 0 0"
+		"Index" "6"
+		}
+	"$base_temp"
+		{
+		"DefaultValue" "TEMP_NOLL"
+		"Index" "7"
+		}
+	}
+"Exporting"
+	{
+	"Instances"
+		{
+		"0"
+			{
+			"Name" "instances/bee2/clean/items/white_8.vmf"
+			"EntityCount" "1"
+			"BrushCount" "1"
+			"BrushSideCount" "6"
+			}
+		"1"
+			{
+			"Name" "instances/bee2/clean/items/black_8.vmf"
+			"EntityCount" "1"
+			"BrushCount" "1"
+			"BrushSideCount" "6"
+			}
+		"2"
+			{
+			"Name" "instances/bee2/clean/items/white_16.vmf"
+			"EntityCount" "1"
+			"BrushCount" "2"
+			"BrushSideCount" "12"
+			}
+		"3"
+			{
+			"Name" "instances/bee2/clean/items/black_16.vmf"
+			"EntityCount" "1"
+			"BrushCount" "2"
+			"BrushSideCount" "12"
+			}
+		"4"
+			{
+			"Name" "instances/bee2/clean/items/white_24.vmf"
+			"EntityCount" "1"
+			"BrushCount" "2"
+			"BrushSideCount" "12"
+			}
+		"5"
+			{
+			"Name" "instances/bee2/clean/items/black_24.vmf"
+			"EntityCount" "1"
+			"BrushCount" "2"
+			"BrushSideCount" "12"
+			}
+		}
+	"TargetName" "advanced_panel"
+	"Offset" "64 64 64"
+	}
+}
+

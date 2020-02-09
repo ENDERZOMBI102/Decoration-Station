@@ -1,0 +1,26 @@
+"Properties"
+{
+"Authors" "Libbybapa"
+"Tags" "Custom Embedded Lights"
+"Description"
+{
+"" "This is a very adjustable light item."
+"" ""
+		"" "* __Button Type__ selects between three brightness settings.  Sphere is brightest."
+"" ""
+		"" "* __Cube Type__ selects the height of the surrounding blocks in 1/4 increments."
+"" "" 
+		"" "*  Use __Timer__ to select the color of the light.  The color will match the same colors used by the cube coloriser and can be customized on the items tab of the Style/Items Properties palette.  That gives over 6 million colors to choose from and up to 27 different colors in a single map."
+"" ""  
+		"" "* If __Start Reversed__ is checked, the portal surrounding blocks will be white."
+"" ""
+		"" "* If __Start Open__ is unchecked the surrounding blocks will be gridded."
+"" ""
+
+}
+"ent_count" "2"
+"Icon"
+{
+"0" "clean/lib_light.png"
+}
+}

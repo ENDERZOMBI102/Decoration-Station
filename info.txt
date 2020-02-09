@@ -16,24 +16,24 @@
 
 "Item"
 	{
-	"ID" "ITEM_FLOATING_PANEL"
+	"ID" "ITEM_ADVANCED_PANEL"
 	"Version"
 		{
 		"Styles"
 			{
-			"ANY_STYLE" "floating_panel"
+			"ANY_STYLE" "advanced_panel"
 			}
 		}
 	}
 "BrushTemplate"
 	{
-	"ID"    "BEE2_FLOATING_PANEL_CLEAN_GRID"
-	"file"  "floating_panelgrid.vmf"
+	"ID" "TEMP_LIB_EIGHTH"
+	"File" "LIB_EIGHTH.vmf"
 	}
 "BrushTemplate"
 	{
-	"ID"    "BEE2_FLOATING_PANEL_CLEAN_OPEN"
-	"file"  "floating_panelopen.vmf"
+	"ID" "TEMP_NOLL"
+	"File" "NOLL.vmf"
 	}
 	
 "Item"
@@ -46,6 +46,58 @@
 			"ANY_STYLE" "flashlight"
 			}
 		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_LIB_LIGHT"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "lib_light"
+			}
+		}
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_FLUSH"
+	"File" "LIB_LIGHT_FLUSH.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_QUART"
+	"File" "LIB_LIGHT_QUART.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_HALF"
+	"File" "LIB_LIGHT_HALF.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_HALFGRID"
+	"File" "LIB_LIGHT_HALF_GRID.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_THREEQUART"
+	"File" "LIB_LIGHT_THREEQUART.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_THREEQUARTGRID"
+	"File" "LIB_LIGHT_THREEQUART_GRID.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_WHOLE"
+	"File" "LIB_LIGHT_WHOLE.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID" "TEMP_LIBLIGHT_WHOLEGRID"
+	"File" "LIB_LIGHT_WHOLE_GRID.vmf"
 	}
 	
 "Item"

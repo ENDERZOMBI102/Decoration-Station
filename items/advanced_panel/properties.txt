@@ -1,0 +1,22 @@
+"Properties"
+	{
+	"Authors" "Libbybapa, Flash4433"
+	"Tags" "Custom"
+	"Description"
+		{
+		"" "This is a flat floating panel item that gives a lot of options."
+		"" ""
+		"" "* __Button Type__ selects between panel thicknesses of 1/16, 1/8, and 3/16."
+		"" "* __Cube Type__ selects the height of the bottom of the panel from the surface it is mounted on - 0, 1/4, 1/2, 3/4, 1." 
+		"" "* If __Start Reversed__ is checked, the block will be white."
+		"" "* If __Start Open__ is unchecked the surfaces will be 4x4 gridded."
+		"" "* If __Start Enabled__ is checked antline overlays will transfer from mounting surface to the top of the panel."
+
+		}
+		"ent_count" "1"
+		"Icon"
+		{
+		"all" "clean/floating_panels.png"
+		"0" "clean/floating_panels.png"
+		}
+	}
