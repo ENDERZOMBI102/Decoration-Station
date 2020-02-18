@@ -50,6 +50,18 @@
 
 "Item"
 	{
+	"ID" "ITEM_INVISIBLE_LIGHT"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "inv_light"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_LIB_LIGHT"
 	"Version"
 		{

@@ -1,7 +1,7 @@
 "Item"
 {
 	"Type"		"ITEM_INVISIBLE_LIGHT"
-	"ItemClass"	"itemlightstrip"
+	"ItemClass"	"ItemLightStrip"
 	"Editor"
 	{
 		"SubType"
@@ -25,9 +25,6 @@
 			}
 		}
 		"MovementHandle"        "HANDLE_8_POSITIONS"
-	}
-	"Properties"
-	{
 	}
 	"Exporting"
 	{
