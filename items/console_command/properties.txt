@@ -1,0 +1,19 @@
+"Properties"
+	{
+	"Authors" "Flash4433"
+	"Tags" "Portal 2"
+	"Description"
+	{
+	"" "A logic item that, when it receives an input, executes a console command. These can be set in the Styles/Items properties window."
+	"" "> Never put a space in between two quotation marks, as it will break the preview map."
+	"" ""
+	"" "* Timer - Use it to select the console command you want."
+	"" "* Start Reversed - Tick if you command needs sv_cheats 1 enabled. Remember to not overuse this."
+	}
+	"infoURL" "none"
+	"ent_count" "4"
+	"Icon"
+		{
+			"0"		"clean/console_command_item.png"
+		}
+	}
