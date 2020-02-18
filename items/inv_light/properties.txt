@@ -1,0 +1,11 @@
+"Properties"
+{
+	"Authors"		"ENDERZOMBI102"
+	"Tags"			"Portal 2; Geometry; Lighting"
+	"Description"
+	{
+		"" "A very simple invisible light."
+	}
+	"Ent_Count"	"4"
+	"Icon" "items/clean/placeholder"
+}
