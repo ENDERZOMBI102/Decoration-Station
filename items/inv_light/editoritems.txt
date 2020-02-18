@@ -1,0 +1,47 @@
+"Item"
+{
+	"Type"		"ITEM_LIGHT_PANEL"
+	"ItemClass"	"itemlightstrip"
+	"Editor"
+	{
+		"SubType"
+		{
+			"Name"			"PORTAL2_PuzzleEditor_Item_light_strip"
+			"Model"
+			{
+				"ModelName" "light_strip.3ds"
+			}
+			"Palette"
+			{
+				"Tooltip"   "PORTAL2_PuzzleEditor_Palette_light_strip"
+				"Image"     "palette/light_panel.png"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle"        "HANDLE_8_POSITIONS"
+	}
+	"Properties"
+	{
+	}
+	"Exporting"
+	{
+		"Instances"
+		{
+			"0"
+			{
+				"Name"				"instances/BEE2/clean/items/light_strip/common.vmf"
+				"EntityCount"		"4"
+				"BrushCount"		"0"
+				"BrushSideCount"	"0"
+			}
+		}
+		"TargetName"		"ls"
+		"Offset"	"64 64 64"
+	}
+}
