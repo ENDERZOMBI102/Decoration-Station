@@ -35,7 +35,7 @@
 		{
 			"0"
 			{
-				"Name"				"instances/BEE2/clean/items/light_strip/common.vmf"
+				"Name"				"instances/BEE2/clean/items/decosta/light.vmf"
 				"EntityCount"		"4"
 				"BrushCount"		"0"
 				"BrushSideCount"	"0"
