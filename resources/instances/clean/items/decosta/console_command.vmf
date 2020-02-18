@@ -52,6 +52,7 @@ entity
 	"id" "5"
 	"classname" "func_instance_parms"
 	"parm1" "$connectioncount integer 0"
+        "parm1" "$start_reversed integer 0"
 	"origin" "-32 0 -8"
 	editor
 	{
