@@ -1,19 +1,19 @@
 "Item"
 {
-	"Type"		"ITEM_LIGHT_PANEL"
+	"Type"		"ITEM_INVISIBLE_LIGHT"
 	"ItemClass"	"itemlightstrip"
 	"Editor"
 	{
 		"SubType"
 		{
-			"Name"			"PORTAL2_PuzzleEditor_Item_light_strip"
+			"Name"			"INVISIBLE LIGHT"
 			"Model"
 			{
 				"ModelName" "light_strip.3ds"
 			}
 			"Palette"
 			{
-				"Tooltip"   "PORTAL2_PuzzleEditor_Palette_light_strip"
+				"Tooltip"   "INVISIBLE LIGHT"
 				"Image"     "palette/light_panel.png"
 			}
 			"Sounds"
