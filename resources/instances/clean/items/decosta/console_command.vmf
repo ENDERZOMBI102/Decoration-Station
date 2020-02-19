@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_black_nofog"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
 }
 entity
 {
@@ -51,8 +51,10 @@ entity
 {
 	"id" "5"
 	"classname" "func_instance_parms"
-	"parm1" "$connectioncount integer 0"
-        "parm1" "$start_reversed integer 0"
+	"parm1" "$start_reversed integer 0"
+	"parm2" "$connectioncount integer 0"
+	"parm3" "$console_command string sv_gravity 600"
+	"parm4" "$timer_delay integer 3"
 	"origin" "-32 0 -8"
 	editor
 	{
