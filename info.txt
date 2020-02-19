@@ -155,6 +155,19 @@
 		}
 	}
 
+"Item"
+	{
+	"ID" "ITEM_CONSOLE_COMMAND_ITEM"
+	"unstyled"    "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "console_command"
+			}
+		}
+	}
+
 "ConfigGroup"
 	{
 	"ID"    "BEE2_DECOSTA_CONSOLE_COMMAND"
@@ -198,17 +211,5 @@
 			}
 		
 		"Tooltip" "Set the commands that will be run upon activation of the DecoSta's Console Command Item."
-		}
-	}
-
-"Item"
-	{
-	"ID" "ITEM_CONSOLE_COMMAND_ITEM"
-	"Version"
-		{
-		"Styles"
-			{
-			"ANY_STYLE" "console_command"
-			}
 		}
 	}
