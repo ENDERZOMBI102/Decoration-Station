@@ -51,6 +51,7 @@
 "Item"
 	{
 	"ID" "ITEM_INVISIBLE_LIGHT"
+	"unstyled"    "1"
 	"Version"
 		{
 		"Styles"
