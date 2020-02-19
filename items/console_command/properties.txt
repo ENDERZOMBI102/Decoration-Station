@@ -5,6 +5,7 @@
 	"Description"
 	{
 	"" "A logic item that, when it receives an input, executes a console command. These can be set in the Styles/Items properties window."
+	"" "Commands are run with a `point_servercommand`."
 	"" "> Never put a space in between two quotation marks, as it will break the preview map."
 	"" ""
 	"" "* Timer - Use it to select the console command you want."
