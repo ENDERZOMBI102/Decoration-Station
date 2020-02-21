@@ -6,7 +6,7 @@
 	{
 		"" "A very simple invisible light."
 	}
-	"ent_count"	"4"
+	"ent_count"	"1"
 	"Icon" 
 	{
 		"0" "clean/placeholder"

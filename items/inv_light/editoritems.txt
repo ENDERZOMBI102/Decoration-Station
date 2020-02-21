@@ -18,10 +18,10 @@
 			}
 			"Sounds"
 			{
-				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_CREATED"				"P2Editor.PlaceOther"
 				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
 				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-				"SOUND_DELETED"					"P2Editor.RemoveOther"
+				"SOUND_DELETED"				"P2Editor.RemoveOther"
 			}
 		}
 		"MovementHandle"        "HANDLE_8_POSITIONS"
@@ -33,9 +33,9 @@
 			"0"
 			{
 				"Name"				"instances/BEE2/clean/items/decosta/light.vmf"
-				"EntityCount"		"4"
-				"BrushCount"		"0"
-				"BrushSideCount"	"0"
+				"EntityCount"		"1"
+				"BrushCount"		"6"
+				"BrushSideCount"	"36"
 			}
 		}
 		"TargetName"		"ls"
