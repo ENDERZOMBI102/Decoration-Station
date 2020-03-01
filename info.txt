@@ -1,6 +1,12 @@
 "ID"   "DeCosta"
 "Name" "Decoration Station Package"
 "Desc" "This package contains various decoration items!"
+"Prerequisites"
+{
+	"Package" "BEE2_CLEAN_STYLE"
+	"Package" "BEE2_PORTAL_1"
+	"Package" "VALVE_TEST_ELEM"
+}
 
 "Item"
 	{
