@@ -1,3 +1,9 @@
 desktop.ini
 *.vmx
 *.zip
+resources/models/props/stillalive/metal_box.phy
+resources/models/props/stillalive/metal_box.dx90.vtx
+resources/models/props/stillalive/metal_box.mdl
+resources/models/props/stillalive/metal_box.vvd
+resources/materials/models/props/stillalive/metal_box_skin002.vtf
+resources/materials/models/props/stillalive/metal_box_skin002.vmt
