@@ -14,7 +14,7 @@
 				"Palette"
 					{
 					"Tooltip"		"SKULL PEDESTAL BUTTON"
-					"Image"			"palette/p1/pedestal_button.png"
+					"Image"			"palette/p1/skull_red_ped.png"
 					"Position"		"0 0 0"
 					}
 				"Sounds"

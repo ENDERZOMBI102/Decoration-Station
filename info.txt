@@ -11,13 +11,31 @@
 "Item"
 	{
 	"ID" "ITEM_SKULL_BUTTON_PEDESTAL"
-	"Description" "A small button on a stand that can be pushed by the player. It is active for a configurable time, or indefinitely active once pushed. Uses the model from Portal 1 Still Alive, with a skull inside a cube drawing on top of the button. It should be used if a cube respawns if the button is pressed."
 	"all_conf"	"skull_ped_button"
 	"Version"
 		{
+		"ID"	"VER_BLUE_STRIPES"
+		"Name"	"Blue Stripes"
 		"Styles"
 			{
-			"BEE2_PORTAL_1"		"skull_ped"
+			"BEE2_PORTAL_1"		"skull_blue_ped"
+			}
+		}
+	}
+
+"Override"
+	{
+	"Item"
+		{
+		"ID" "ITEM_SKULL_BUTTON_PEDESTAL"
+		"Version"
+			{
+			"ID"	"VER_RED_STRIPES"
+			"Name"	"Red Stripes"
+			"Styles"
+				{
+				"BEE2_PORTAL_1"		"skull_red_ped"
+				}
 			}
 		}
 	}
