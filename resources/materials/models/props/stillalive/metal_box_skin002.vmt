@@ -8,8 +8,7 @@
 	"$phongexponenttexture" "models\props_ingame\p1_metal_box\metal_box_exponent"
 
 	
-	"$phongboost" "10"	
-	"$lightwarptexture" "models\props_ingame\p1_metal_box\metal_box_lightwarp"
+	"$phongboost" "10"
 	"$phongfresnelranges"	"[5 1 2]"
 
 //	"$envmap" "env_cubemap"
