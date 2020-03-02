@@ -30,6 +30,22 @@ world
 }
 entity
 {
+	"id" "296"
+	"classname" "func_instance_parms"
+	"parm1" "$skin integer"
+	"parm2" "$timer_delay integer"
+	"parm3" "$timer_sound integer"
+	"origin" "-16 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "250"
 	"classname" "ambient_generic"
 	"cspinup" "0"
@@ -224,7 +240,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "$skin"
 	"solid" "6"
 	"spawnflags" "0"
 	"StartDisabled" "0"
