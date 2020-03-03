@@ -18,7 +18,16 @@
 		"Name"	"Blue Stripes"
 		"Styles"
 			{
-			"BEE2_PORTAL_1"		"skull_blue_ped"
+			"BEE2_CLEAN"	"skull_blue_ped"
+			"BEE2_PORTAL_1"
+				{ 
+				"Base" "BEE2_CLEAN"
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
+					}
+				"Config" "skull_blue_ped_p1.cfg"
+				}
 			}
 		}
 	}
@@ -34,7 +43,16 @@
 			"Name"	"Red Stripes"
 			"Styles"
 				{
-				"BEE2_PORTAL_1"		"skull_red_ped"
+				"BEE2_CLEAN"	"skull_red_ped"
+				"BEE2_PORTAL_1"
+					{ 
+					"Base" "BEE2_CLEAN"
+					"Instances" 
+						{ 
+							"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
+						}
+					"Config" "skull_red_ped_p1.cfg"
+					}
 				}
 			}
 		}

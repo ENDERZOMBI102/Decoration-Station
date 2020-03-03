@@ -46,7 +46,7 @@
 				{
 				"0"
 					{
-					"Name"				"instances/BEE2/p1/items/decosta/skull_pedestal.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/skull_pedestal.vmf"
 					"EntityCount"		"7"
 					"BrushCount"		"1"
 					"BrushSideCount"	"6"
