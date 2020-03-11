@@ -6,7 +6,7 @@
 	{
 		"SubType"
 		{
-			"Name"			"INVISIBLE LIGHT"
+			"Name"			"Invisible Light"
 			"Model"
 			{
 				"ModelName" "light_strip.3ds"
