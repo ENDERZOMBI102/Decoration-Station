@@ -205,7 +205,7 @@ entity
 	"HoldAnimation" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
-	"model" "models/props/stillalive/switch001.mdl"
+	"model" "models/props/stillalive/switch.mdl"
 	"parentname" "button"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
