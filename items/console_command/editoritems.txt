@@ -52,7 +52,7 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/clean/items/decosta/console_command.vmf"
-					"EntityCount"		"4"
+					"EntityCount"		"2"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 				}
@@ -60,10 +60,11 @@
 			"TargetName"		"cc"
 			"Inputs"
 			{
-				"CONNECTION_STANDARD"
+				"BEE2"
 				{
-					"Activate"		"instance:counter;Add"
-					"Deactivate"	"instance:counter;Subtract"
+					"Type" "AND"
+					"Enable_Cmd" "command,Command,$cheats,0,-1"
+					"Enable_Cmd" "command,Command,$command,0.01,-1"
 				}
 			}
 			"Offset"	"64 64 64"
