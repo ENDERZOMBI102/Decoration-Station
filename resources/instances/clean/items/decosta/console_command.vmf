@@ -49,7 +49,7 @@ entity
 entity
 {
 	"id" "23"
-	"classname" "point_broadcastclientcommand"
+	"classname" "point_servercommand"
 	"targetname" "command"
 	"origin" "8 0 -8"
 	editor
