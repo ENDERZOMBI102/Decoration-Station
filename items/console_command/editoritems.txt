@@ -9,7 +9,7 @@
 				"Name"			"DecoSta Console Command Item"
 				"Model"
 				{
-					"ModelName"		"light_strip.3ds"
+					"ModelName"		"logic_strip_and.3ds"
 				}
 				"Palette"
 				{
