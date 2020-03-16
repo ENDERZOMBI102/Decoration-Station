@@ -124,6 +124,7 @@
 "Item"
 	{
 	"ID" "ITEM_INVISIBLE_LIGHT"
+	"unstyled"    "1"
 	"Version"
 		{
 		"Styles"
@@ -224,5 +225,64 @@
 			"BEE2_1970s" "ceiling_light_70"
 			"BEE2_1980s" "ceiling_light_80"
 			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_CONSOLE_COMMAND_ITEM"
+	"unstyled"    "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "console_command"
+			}
+		}
+	}
+
+"ConfigGroup"
+	{
+	"ID"    "BEE2_DECOSTA_CONSOLE_COMMAND"
+	"Name"  "Console Commands"
+	"Widget"
+		{
+		"ID"        "ConsoleCommand"
+		"Label"     "Command"
+		"Type"      "String"
+		"UseTimer"  "1"
+		"Default"
+			{
+			"3"  "portal_draw_ghosting 0"
+			"4"  "mat_fastspecular 0"
+			"5"  "r_portal_use_dlights 1"
+			"6"  "r_waterforcereflectentities 1"
+			"7"  "gameinstructor_enable 1"
+			"8"  "sv_enableholdrotation 1"
+			"9"  "kill"
+			"10" "screenshot"
+			"11" "r_drawviewmodel 0"
+			"12" "sv_gravity 300"
+			"13" "sv_portal_placement_never_fail 1"
+			"14" "sv_monster_turret_velocity 400"
+			"15" "host_timescale 0.5"
+			"16" "host_timescale 2"
+			"17" "portals_resizeall 66 105"
+			"18" "notarget"
+			"19" "give_portalgun"
+			"20" "upgrade_potatogun"
+			"21" "impulse 100"
+			"22" "impulse 200"
+			"23" "firstperson"
+			"24" "thirdperson"
+			"25" "thirdpersonshoulder"
+			"26" ""
+			"27" ""
+			"28" ""
+			"29" "god"
+			"30" "noclip"
+			}
+		
+		"Tooltip" "Set the commands that will be run upon activation of the DecoSta's Console Command Item."
 		}
 	}
