@@ -1,0 +1,11 @@
+"Properties"
+	{
+	"Authors"		"Valve, Flash4433"
+	"Tags"			"Portal 2;Portal Still Alive;Test Elements"
+	"Description" "A weighted cube with a drawing of a skull cube, ported from Portal Still Alive. Has red lights like the original model."
+	"Ent_count"     "Dropperless: 1\nDropper: 16"
+	"Icon"
+		{
+			"0"		"clean/skull_red_cube.png"
+		}
+	}

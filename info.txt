@@ -63,16 +63,16 @@
 			"BEE2_PORTAL_1"	"skull_blue_cube"
 			}
 		}
-//	"Version"
-//		{
-//		"ID"	"VER_RED_STRIPES"
-//		"Name"	"Red Stripes"
-//		"Styles"
-//			{
-//			"BEE2_CLEAN"	"skull_red_cube"
-//			"BEE2_PORTAL_1"	"skull_red_cube"
-//			}
-//		}
+	"Version"
+		{
+		"ID"	"VER_RED_STRIPES"
+		"Name"	"Red Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_red_cube"
+			"BEE2_PORTAL_1"	"skull_red_cube"
+			}
+		}
 	}
 
 "Item"
