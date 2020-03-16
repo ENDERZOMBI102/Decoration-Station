@@ -1,7 +1,6 @@
 "Item"
 	{
 	"Type"			"ITEM_SKULL_CUBE"
-	"ItemClass"		"ItemCube"
 	"Editor"
 		{
 		"SubType"
@@ -11,14 +10,11 @@
 				{
 				"ModelName"		"cube.3ds"
 				}
-			"Model"
-				{
-				"ModelName"		"cube_falling.3ds"
-				}
 			"Palette"
 				{
 				"Tooltip"	"SKULL CUBE"
 				"Image"		"palette/clean/skull_blue_cube.png"
+				"Position"		"1 0 0"
 				}
 			"Sounds"
 				{
@@ -26,19 +22,6 @@
 				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandCube"
 				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseCube"
 				"SOUND_DELETED"					"P2Editor.RemoveCube"
-				}
-			"Animations"
-				{
-				"ANIM_IDLE"							"0"
-				"ANIM_EDITING_ACTIVATE"				"2"
-				"ANIM_EDITING_DEACTIVATE"			"3"
-				"ANIM_FALLING_IDLE"					"1"
-				"ANIM_FALLING_EDITING_ACTIVATE"		"4"
-				"ANIM_FALLING_EDITING_DEACTIVATE"	"5"
-				"ANIM_FALLING_TO_GROUND"			"7"
-				"ANIM_GROUND_TO_FALLING"			"9"
-				"ANIM_FALLING_TO_GROUND_EDITING"	"6"
-				"ANIM_GROUND_TO_FALLING_EDITING"	"8"
 				}
 			}
 		"MovementHandle"			"HANDLE_36_DIRECTIONS"
@@ -57,7 +40,7 @@
 				}
 			}
 
-		"TargetName"		"cu"
+		"TargetName"		"sc"
 		"OccupiedVoxels"
 			{
 			"Voxel"
