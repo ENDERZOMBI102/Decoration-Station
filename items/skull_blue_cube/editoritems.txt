@@ -52,7 +52,7 @@
 			{
 			"0"
 				{
-				"Name"			"instances/bee2/clean/items/decosta/skull_blue_cube.vmf"
+				"Name"			"instances/bee2/clean/items/decosta/skull_cube.vmf"
 				"EntityCount"	"1"
 				}
 			}
