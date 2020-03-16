@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "72"
+	"mapversion" "74"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "72"
+	"mapversion" "74"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66,7 +66,7 @@ entity
 	"spinup" "0"
 	"targetname" "snd_rel"
 	"volstart" "0"
-	"origin" "-48 0 -16"
+	"origin" "-48 0 -24"
 	editor
 	{
 		"color" "220 30 220"
@@ -110,7 +110,7 @@ entity
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 0 0"
-	"origin" "-48 0 -32.5"
+	"origin" "-48 0 -40.5"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -138,9 +138,9 @@ entity
 		side
 		{
 			"id" "54"
-			"plane" "(-57 -9 -56) (-57 9 -56) (-57 9 -53)"
+			"plane" "(-57 -9 -64) (-57 9 -64) (-57 9 -61)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 -6] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -149,9 +149,9 @@ entity
 		side
 		{
 			"id" "53"
-			"plane" "(-39 9 -56) (-39 -9 -56) (-39 -9 -53)"
+			"plane" "(-39 9 -64) (-39 -9 -64) (-39 -9 -61)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 -6] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -160,7 +160,7 @@ entity
 		side
 		{
 			"id" "52"
-			"plane" "(-57 9 -56) (-57 -9 -56) (-39 -9 -56)"
+			"plane" "(-57 9 -64) (-57 -9 -64) (-39 -9 -64)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 -8] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
@@ -171,7 +171,7 @@ entity
 		side
 		{
 			"id" "51"
-			"plane" "(-57 -9 -53) (-57 9 -53) (-39 9 -53)"
+			"plane" "(-57 -9 -61) (-57 9 -61) (-39 9 -61)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 -8] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
@@ -182,9 +182,9 @@ entity
 		side
 		{
 			"id" "50"
-			"plane" "(-57 9 -53) (-57 9 -56) (-39 9 -56)"
+			"plane" "(-57 9 -61) (-57 9 -64) (-39 9 -64)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 -6] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -193,9 +193,9 @@ entity
 		side
 		{
 			"id" "49"
-			"plane" "(-39 -9 -53) (-39 -9 -56) (-57 -9 -56)"
+			"plane" "(-39 -9 -61) (-39 -9 -64) (-57 -9 -64)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 -6] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -246,7 +246,7 @@ entity
 	"StartDisabled" "0"
 	"SuppressAnimSounds" "0"
 	"targetname" "model"
-	"origin" "-48 0 -56"
+	"origin" "-48 0 -64"
 	editor
 	{
 		"color" "220 30 220"

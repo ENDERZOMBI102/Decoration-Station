@@ -6,7 +6,7 @@
 	{
 		"SubType"
 		{
-			"Name"			"INVISIBLE LIGHT"
+			"Name"			"Invisible Light"
 			"Model"
 			{
 				"ModelName" "light_strip.3ds"
@@ -14,7 +14,7 @@
 			"Palette"
 			{
 				"Tooltip"   "INVISIBLE LIGHT"
-				"Image"     "palette/light_panel.png"
+				"Image"     "palette/clean/invisible_light.png"
 			}
 			"Sounds"
 			{

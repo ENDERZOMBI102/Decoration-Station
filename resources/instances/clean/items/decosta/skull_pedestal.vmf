@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "72"
+	"mapversion" "79"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "72"
+	"mapversion" "79"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -46,71 +46,14 @@ entity
 }
 entity
 {
-	"id" "250"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "BEE2.P1.button_up"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "48"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "snd_rel"
-	"volstart" "0"
-	"origin" "-48 0 -16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "278"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "reset_rl"
-	connections
-	{
-		"OnTrigger" "outputUnLock0.1-1"
-		"OnTrigger" "outputFireUser10.1-1"
-		"OnTrigger" "reset_rlDisable0-1"
-		"OnTrigger" "modelSetAnimationup0-1"
-		"OnTrigger" "snd_relPlaySound0-1"
-		"OnTrigger" "@commandCommandcc_emit Portal.button_up0-1"
-	}
-	"origin" "-48 -32 -32"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "231"
+	"id" "221"
 	"classname" "func_button"
 	"disablereceiveshadows" "0"
 	"health" "0"
-	"lip" "0"
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 0 0"
-	"origin" "-48 0 -32.5"
+	"origin" "-48 0 -40.5"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -118,29 +61,27 @@ entity
 	"sounds" "0"
 	"spawnflags" "1025"
 	"speed" "5"
-	"targetname" "output"
+	"targetname" "button"
 	"unlocked_sentence" "0"
 	"unlocked_sound" "0"
-	"wait" "0.1"
+	"wait" "1"
 	connections
 	{
-		"OnUser2" "proxyProxyRelay0-1"
-		"OnUser1" "proxyProxyRelay0-1"
+		"OnPressed" "outputSetValue10.01-1"
+		"OnPressed" "outputTest0-1"
 		"OnPressed" "modelSetAnimationdown0-1"
-		"OnPressed" "outputFireUser20-1"
-		"OnPressed" "reset_rlEnable0-1"
-		"OnPressed" "outputLock0-1"
 		"OnPressed" "@commandCommandcc_emit Portal.button_down0-1"
+		"OnPressed" "modelSetAnimationup0.1-1"
 	}
 	solid
 	{
-		"id" "233"
+		"id" "286"
 		side
 		{
-			"id" "54"
-			"plane" "(-57 -9 -56) (-57 9 -56) (-57 9 -53)"
+			"id" "31"
+			"plane" "(-57 -9 -64) (-57 9 -64) (-57 9 -61)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 58] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -148,10 +89,10 @@ entity
 		}
 		side
 		{
-			"id" "53"
-			"plane" "(-39 9 -56) (-39 -9 -56) (-39 -9 -53)"
+			"id" "32"
+			"plane" "(-39 9 -64) (-39 -9 -64) (-39 -9 -61)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 58] 0.25"
 			"vaxis" "[0 -1 0 8] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -159,8 +100,8 @@ entity
 		}
 		side
 		{
-			"id" "52"
-			"plane" "(-57 9 -56) (-57 -9 -56) (-39 -9 -56)"
+			"id" "33"
+			"plane" "(-57 9 -64) (-57 -9 -64) (-39 -9 -64)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 -8] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
@@ -170,8 +111,8 @@ entity
 		}
 		side
 		{
-			"id" "51"
-			"plane" "(-57 -9 -53) (-57 9 -53) (-39 9 -53)"
+			"id" "34"
+			"plane" "(-57 -9 -61) (-57 9 -61) (-39 9 -61)"
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 -8] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
@@ -181,10 +122,10 @@ entity
 		}
 		side
 		{
-			"id" "50"
-			"plane" "(-57 9 -53) (-57 9 -56) (-39 9 -56)"
+			"id" "35"
+			"plane" "(-57 9 -61) (-57 9 -64) (-39 9 -64)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 58] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -192,10 +133,10 @@ entity
 		}
 		side
 		{
-			"id" "49"
-			"plane" "(-39 -9 -53) (-39 -9 -56) (-57 -9 -56)"
+			"id" "36"
+			"plane" "(-39 -9 -61) (-39 -9 -64) (-57 -9 -64)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 0 1 -38] 0.25"
+			"uaxis" "[0 0 1 58] 0.25"
 			"vaxis" "[1 0 0 26] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -219,9 +160,42 @@ entity
 }
 entity
 {
+	"id" "226"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "BEE2.P1.button_up"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"SourceEntityName" "model"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "snd_rel"
+	"volstart" "0"
+	"origin" "-16 -16 -48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "91"
 	"classname" "prop_dynamic"
 	"angles" "0 0 0"
+	"DefaultAnim" "idle"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"ExplodeDamage" "0"
@@ -232,7 +206,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props/stillalive/switch.mdl"
-	"parentname" "output"
+	"parentname" "button"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -246,7 +220,29 @@ entity
 	"StartDisabled" "0"
 	"SuppressAnimSounds" "0"
 	"targetname" "model"
-	"origin" "-48 0 -56"
+	"origin" "-48 0 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "52"
+	"classname" "logic_branch"
+	"targetname" "output"
+	connections
+	{
+		"OnTrue" "!selfFireUser10-1"
+		"OnTrue" "!selfFireUser20.01-1"
+		"OnFalse" "!selfFireUser20-1"
+		"OnUser1" "proxyProxyRelay0-1"
+		"OnUser2" "proxyProxyRelay0-1"
+	}
+	"origin" "-16 16 -48"
 	editor
 	{
 		"color" "220 30 220"
@@ -351,7 +347,7 @@ entity
 	"classname" "func_instance_parms"
 	"parm1" "$timer_delay float 3"
 	"parm2" "$timer_sound integer 0"
-	"origin" "-48 32 -48"
+	"origin" "-48 -32 -48"
 	editor
 	{
 		"color" "220 30 220"
@@ -365,11 +361,7 @@ entity
 	"id" "22"
 	"classname" "func_instance_io_proxy"
 	"targetname" "proxy"
-	connections
-	{
-		"OnProxyRelay" "reset_rlTrigger0-1"
-	}
-	"origin" "-48 -32 -48"
+	"origin" "-48 32 -48"
 	editor
 	{
 		"color" "220 30 220"
