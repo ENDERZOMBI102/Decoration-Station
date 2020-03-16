@@ -1,19 +1,19 @@
 "Item"
 	{
 		"Type"		"ITEM_CONSOLE_COMMAND_ITEM"
-		"ItemClass"	"ItemLightStrip"
+		"ItemClass"	"ItemButtonFloor"
 		"Editor"
 		{
 			"SubType"
 			{
-				"Name"			"DecoSta Console Command Item"
+				"Name"			"DecoSta Console Command - Client"
 				"Model"
 				{
 					"ModelName"		"logic_strip_and.3ds"
 				}
 				"Palette"
 				{
-					"Tooltip"		"DECOSTA CONSOLE COMMAND ITEM"
+					"Tooltip"		"DECOSTA CONSOLE COMMAND"
 					"Image"			"palette/clean/console_command_item.png"
 					"Position"		"1 0 0"
 				}
@@ -25,7 +25,37 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"		"HANDLE_8_DIRECTIONS"
+			"SubType"
+			{
+				"Name"			"DecoSta Console Command - Server"
+				"Model"
+				{
+					"ModelName"		"logic_strip_or.3ds"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"SubType"
+			{
+				"Name"			"DecoSta Console Command - All Clients"
+				"Model"
+				{
+					"ModelName"		"logic_strip_not.3ds"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"MovementHandle"		"HANDLE_5_DIRECTIONS"
 		}
 		"Properties"
 		{
@@ -44,6 +74,11 @@
 				"DefaultValue"	"0"
 				"Index"			"3"
 			}
+			"ButtonType"
+			{
+				"DefaultValue"	"0"
+				"Index"			"4"
+			}
 		}
 		"Exporting"
 		{
@@ -52,7 +87,42 @@
 				"0"
 				{
 					"Name"				"instances/BEE2/clean/items/decosta/console_command.vmf"
-					"EntityCount"		"2"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+				"1"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/console_command.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+				"2"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/console_command1.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+				"3"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/console_command1.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+				"4"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/console_command2.vmf"
+					"EntityCount"		"3"
+					"BrushCount"		"0"
+					"BrushSideCount"	"0"
+				}
+				"5"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/console_command2.vmf"
+					"EntityCount"		"3"
 					"BrushCount"		"0"
 					"BrushSideCount"	"0"
 				}
@@ -63,10 +133,8 @@
 				"BEE2"
 				{
 					"Type" "AND"
-					"Enable_Cmd" "command,Command,$cheats,0,-1"
+					"Enable_Cmd" "cheats,Command,$cheats,0,-1"
 					"Enable_Cmd" "command,Command,$command,0.01,-1"
-					"Enable_Cmd" "light,TurnOn,,0,-1"
-					"Disable_Cmd" "light,TurnOff,,0,-1"
 				}
 			}
 			"Offset"	"64 64 64"
