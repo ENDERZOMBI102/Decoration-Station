@@ -1,0 +1,20 @@
+"Properties"
+{
+	"Authors" "ENDERZOMBI102"
+	"Tags" "Portal 2;Geometry"
+	"Description"
+	{
+		"" "An Observation room that emit light that can be any color you want"
+		"" "Button Type control the type of the light."
+		"" " -Normal: neutral"
+		"" " -Cube: warm"
+		"" " -Sphere: cold"
+		"" "Use start open to use custom color (select from timer/cube coloriser)"
+	}
+	"infoURL" ""
+	"ent_count" "16"
+	"Icon"
+	{
+		"0" "clean/placeholder.png"
+	}
+}

@@ -286,3 +286,18 @@
 		"Tooltip" "Set the commands that will be run upon activation of the DecoSta's Console Command Item."
 		}
 	}
+	
+"Item"
+{
+	"ID" "ITEM_COLORFUL_ROOM"
+	"unstyled"    "0"
+	"Version"
+	{
+		"Styles"
+		{
+			"BEE2_CLEAN" 	"colorful_room_clean"
+			"BEE2_PORTAL_1" "colorful_room_p1"
+			"ANY_STYLE" 	"colorful_room_clean"
+		}
+	}
+}
