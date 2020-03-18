@@ -1,4 +1,4 @@
-	"Item"
+"Item"
 	{
 		"Type"		    "ITEM_VERTICAL_DOOR"
 		"Editor"
