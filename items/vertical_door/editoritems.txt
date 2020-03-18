@@ -1,6 +1,5 @@
 	"Item"
 	{
-		"ItemClass"  	"ItemButtonFloor"
 		"Type"		    "ITEM_VERTICAL_DOOR"
 		"Editor"
 		{
