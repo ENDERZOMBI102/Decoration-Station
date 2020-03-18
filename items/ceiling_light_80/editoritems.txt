@@ -36,7 +36,7 @@
 		{
 			"0"
 			{
-				"Name"				"instances/80s/items/decosta/ceiling_light.vmf"
+				"Name"				"instances/bee2/80s/items/decosta/ceiling_light.vmf"
 				"EntityCount"		"5"
 				"BrushCount"		"9"
 				"BrushSideCount"	"54"
