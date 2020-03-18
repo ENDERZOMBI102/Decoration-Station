@@ -1,6 +1,6 @@
 "Properties"
 {
-	"Authors" "bisqwit, ENDERZOMBI102"
+	"Authors" "bisqwit, ENDERZOMBI102, saismee"
 	"Tags" "Portal 2;Geometry"
 	"Description" "The vertical door used in BTS."
 	"infoURL" "none"

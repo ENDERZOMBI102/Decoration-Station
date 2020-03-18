@@ -28,15 +28,15 @@
 		}
 		"Properties"
 		{
-			"ConnectionCount"
-			{
-				"DefaultValue"		"0"
-				"Index"		"0"
-			}
 			"StartEnabled"
 			{
 				"DefaultValue"		"0"
 				"Index"		"1"
+			}
+			"CubeType"
+			{
+				"DefaultValue" "0"
+				"Index" "2"
 			}
 		}
 		"Exporting"
@@ -54,10 +54,11 @@
 			"TargetName"		"dr"
 			"Inputs"
 			{
-				"CONNECTION_STANDARD"
+				"BEE2"
 				{
-					"Activate"		"instance:counter;Add"
-					"Deactivate"		"instance:counter;Subtract"
+					"Type" "AND"
+					"Enable_Cmd" "door_open_relay,Trigger,,0,-1"
+					"Disable_Cmd" "door_close_relay,Trigger,,0,-1"
 				}
 			}
 			"Offset"		"64 64 64"

@@ -31,7 +31,7 @@
 			"TimerDelay"
 			{
 				"DefaultValue"	"3"
-				"Index"			"0"
+				"Index"			"1"
 			}
 		}
 		"Exporting"
@@ -40,10 +40,19 @@
 			{
 				"0"
 				{
+					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_00.vmf"
+				}
+				"1"
+				{
 					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_03.vmf"
-					"EntityCount"		"4"
-					"BrushCount"		"0"
-					"BrushSideCount"	"0"
+				}
+				"2"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_06.vmf"
+				}
+				"3"
+				{
+					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_09.vmf"
 				}
 			}
 			"TargetName"		"fp"

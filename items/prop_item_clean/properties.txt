@@ -1,11 +1,11 @@
 "Properties"
 	{
-	"Authors" "Flash4433"
-	"Tags" "Portal 2"
+	"Authors" "Flash4433, saismee"
+	"Tags" "Portal 2;Portal 1;Custom"
 	"Description"
 	{
-	"" "A random set of props that can be set with the Timer. 26-30 are custom, so you can make your own advanced set of props."
-	"" "Just add them to `sdk_content/maps/instances/**style**/items/decosta/prop/`, under the name `prop_XX.vmf`, X being the number."
+	"" "A random set of props that can be set with the Timer. 26-30 are custom, so you can make your own advanced set of props. "
+	"" "Just add them to `sdk_content/maps/instances/**style**/items/decosta/prop/`, under the name `prop_XX.vmf`, X being the number. "
 	"" ""
 	"" "* 3 - Table with Computer"
 	"" "* 4 - Table with Cake"
