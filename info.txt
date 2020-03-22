@@ -230,6 +230,19 @@
 
 "Item"
 	{
+	"ID" "ITEM_WEAPON_STRIP"
+	"unstyled"    "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "weaponstrip"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_CONSOLE_COMMAND_ITEM"
 	"unstyled"    "1"
 	"Version"
