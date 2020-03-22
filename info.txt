@@ -240,7 +240,6 @@
 			}
 		}
 	}
-
 "ConfigGroup"
 	{
 	"ID"    "BEE2_DECOSTA_CONSOLE_COMMAND"
@@ -282,7 +281,6 @@
 			"29" "god"
 			"30" "noclip"
 			}
-		
-		"Tooltip" "Set the commands that will be run upon activation of the DecoSta's Console Command Item."
+		"Tooltip" "Set the commands that will be run upon activation of the Console Command Item."
 		}
 	}
