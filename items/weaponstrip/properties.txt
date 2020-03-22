@@ -5,9 +5,6 @@
 	"Description"
 	{
 	"" "A logic item that, when it receives an input, strips the player of their current weapon."
-	"" ""
-	"" ""
-	"" "> To-Do: Add Auto Disable for other guns"
 	}
 	"ent_count" "1"
 	"Icon"
