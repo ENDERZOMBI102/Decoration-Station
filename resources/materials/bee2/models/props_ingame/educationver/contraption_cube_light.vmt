@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$basetexture "bee2/models/props_ingame/educationver/contraption_cube_light"
+$selfillum 1
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $basetexturetransform
+texturescrollrate .1
+texturescrollangle 90
+}
+}
+}
