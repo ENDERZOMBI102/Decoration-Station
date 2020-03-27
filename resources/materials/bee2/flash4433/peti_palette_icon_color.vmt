@@ -1,6 +1,6 @@
 UnlitGeneric
 {
-$basetexture "flash4433/peti_palette_icon_color"
+$basetexture "bee2/flash4433/peti_palette_icon_color"
 $selfillum 1
 $surfaceprop glass
 $reflectivity "[0 0 0]"
