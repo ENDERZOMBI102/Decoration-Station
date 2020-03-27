@@ -53,6 +53,7 @@
 				{
 					"Type" "AND"
 					"Enable_Cmd" "weaponstrip,Strip,,0,-1"
+					"Enable_Cmd" "weaponstrip,FireUser1,,0,-1"
 				}
 			}
 			"Offset"	"64 64 64"
