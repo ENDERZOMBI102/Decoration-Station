@@ -143,6 +143,22 @@
 			}
 		}
 	}
+
+"Item"
+	{
+	"ID" "ITEM_CONTRAPTION_BUTTON"
+	"all_conf"	"contraption_button"
+	"unstyled"	"1"
+	"Version"
+		{
+		"ID"	"VER_DEFAULT"
+		"Name"	"Default"
+		"Styles"
+			{
+			"ANY_STYLE" "contraption_button"
+			}
+		}
+	}
 	
 "Item"
 	{
