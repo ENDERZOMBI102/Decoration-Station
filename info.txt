@@ -10,73 +10,6 @@
 
 "Item"
 	{
-	"ID" "ITEM_SKULL_BUTTON_PEDESTAL"
-	"all_conf"	"skull_ped_button"
-	"Version"
-		{
-		"ID"	"VER_BLUE_STRIPES"
-		"Name"	"Blue Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_blue_ped"
-			"BEE2_PORTAL_1"
-				{ 
-				"Base" "BEE2_CLEAN"
-				"Instances" 
-					{ 
-						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
-					}
-				"Config" "skull_blue_ped_p1.cfg"
-				}
-			}
-		}
-	"Version"
-		{
-		"ID"	"VER_RED_STRIPES"
-		"Name"	"Red Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_red_ped"
-			"BEE2_PORTAL_1"
-				{ 
-				"Base" "BEE2_CLEAN"
-				"Instances" 
-					{ 
-						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
-					}
-				"Config" "skull_red_ped_p1.cfg"
-				}
-			}
-		}
-	}
-
-"Item"
-	{
-	"ID" "ITEM_SKULL_CUBE"
-	"Version"
-		{
-		"ID"	"VER_BLUE_STRIPES"
-		"Name"	"Blue Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_blue_cube"
-			"BEE2_PORTAL_1"	"skull_blue_cube"
-			}
-		}
-	"Version"
-		{
-		"ID"	"VER_RED_STRIPES"
-		"Name"	"Red Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_red_cube"
-			"BEE2_PORTAL_1"	"skull_red_cube"
-			}
-		}
-	}
-
-"Item"
-	{
 	"ID" "ITEM_VERTICAL_DOOR"
 	"Version"
 		{
@@ -237,6 +170,73 @@
 		"Styles"
 			{
 			"ANY_STYLE" "weaponstrip"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_SKULL_BUTTON_PEDESTAL"
+	"all_conf"	"skull_ped_button"
+	"Version"
+		{
+		"ID"	"VER_BLUE_STRIPES"
+		"Name"	"Blue Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_blue_ped"
+			"BEE2_PORTAL_1"
+				{ 
+				"Base" "BEE2_CLEAN"
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
+					}
+				"Config" "skull_blue_ped_p1.cfg"
+				}
+			}
+		}
+	"Version"
+		{
+		"ID"	"VER_RED_STRIPES"
+		"Name"	"Red Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_red_ped"
+			"BEE2_PORTAL_1"
+				{ 
+				"Base" "BEE2_CLEAN"
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
+					}
+				"Config" "skull_red_ped_p1.cfg"
+				}
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_SKULL_CUBE"
+	"Version"
+		{
+		"ID"	"VER_BLUE_STRIPES"
+		"Name"	"Blue Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_blue_cube"
+			"BEE2_PORTAL_1"	"skull_blue_cube"
+			}
+		}
+	"Version"
+		{
+		"ID"	"VER_RED_STRIPES"
+		"Name"	"Red Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_red_cube"
+			"BEE2_PORTAL_1"	"skull_red_cube"
 			}
 		}
 	}
