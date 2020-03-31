@@ -158,6 +158,15 @@
 			"ANY_STYLE" "contraption_button"
 			}
 		}
+	"Version"
+		{
+		"ID"	"VER_LIGHTNING_BUG"
+		"Name"	"Fully Black"
+		"Styles"
+			{
+			"ANY_STYLE" "contraption_button_black"
+			}
+		}
 	}
 	
 "Item"

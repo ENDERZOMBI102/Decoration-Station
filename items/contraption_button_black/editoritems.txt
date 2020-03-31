@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"		"CONTRAPTION BUTTON"
-					"Image"			"palette/clean/contraption_button.png"
+					"Image"			"palette/clean/contraption_button_black.png"
 					"Position"		"1 0 0"
 				}
 				"Sounds"
