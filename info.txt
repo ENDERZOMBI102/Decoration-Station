@@ -164,7 +164,14 @@
 		"Name"	"Fully Black"
 		"Styles"
 			{
-			"ANY_STYLE" "contraption_button_black"
+			"BEE2_CLEAN"	"contraption_button_black"
+			"BEE2_PORTAL_1"	"contraption_button_black"
+			"BEE2_OVERGROWN" "contraption_button_black"
+			"BEE2_BTS" "contraption_button_black"
+			"BEE2_1950s" "contraption_button_black"
+			"BEE2_1960s" "contraption_button_black"
+			"BEE2_1970s" "contraption_button_black"
+			"BEE2_1980s" "contraption_button_black"
 			}
 		}
 	}
@@ -220,6 +227,12 @@
 					}
 				"Config" "skull_blue_ped_p1.cfg"
 				}
+			"BEE2_OVERGROWN" "skull_blue_ped"
+			"BEE2_BTS" "skull_blue_ped"
+			"BEE2_1950s" "skull_blue_ped"
+			"BEE2_1960s" "skull_blue_ped"
+			"BEE2_1970s" "skull_blue_ped"
+			"BEE2_1980s" "skull_blue_ped"
 			}
 		}
 	"Version"
@@ -238,6 +251,12 @@
 					}
 				"Config" "skull_red_ped_p1.cfg"
 				}
+			"BEE2_OVERGROWN" "skull_red_ped"
+			"BEE2_BTS" "skull_red_ped"
+			"BEE2_1950s" "skull_red_ped"
+			"BEE2_1960s" "skull_red_ped"
+			"BEE2_1970s" "skull_red_ped"
+			"BEE2_1980s" "skull_red_ped"
 			}
 		}
 	}
@@ -251,8 +270,7 @@
 		"Name"	"Blue Stripes"
 		"Styles"
 			{
-			"BEE2_CLEAN"	"skull_blue_cube"
-			"BEE2_PORTAL_1"	"skull_blue_cube"
+			"ANY_STYLE"	"skull_blue_cube"
 			}
 		}
 	"Version"
@@ -263,6 +281,12 @@
 			{
 			"BEE2_CLEAN"	"skull_red_cube"
 			"BEE2_PORTAL_1"	"skull_red_cube"
+			"BEE2_OVERGROWN" "skull_red_cube"
+			"BEE2_BTS" "skull_red_cube"
+			"BEE2_1950s" "skull_red_cube"
+			"BEE2_1960s" "skull_red_cube"
+			"BEE2_1970s" "skull_red_cube"
+			"BEE2_1980s" "skull_red_cube"
 			}
 		}
 	}
