@@ -12,6 +12,6 @@
 "Ent_count"     "3"
 "Icon"
 	{
-		"0"		"clean/contraption_button_black.png"
+		"0"		"clean/contraption_buttonb.png"
 	}
 }
