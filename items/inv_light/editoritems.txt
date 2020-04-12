@@ -9,7 +9,7 @@
 			"Name"			"Invisible Light"
 			"Model"
 			{
-				"ModelName" "light_strip.3ds"
+				"ModelName" "tspen_ant_router_strip.3ds"
 			}
 			"Palette"
 			{
@@ -32,7 +32,7 @@
 		{
 			"0"
 			{
-				"Name"				"instances/BEE2/clean/items/decosta/light.vmf"
+				"Name"				"instances/BEE2/clean/items/decosta/inv_light.vmf"
 				"EntityCount"		"1"
 				"BrushCount"		"6"
 				"BrushSideCount"	"36"

@@ -7,6 +7,7 @@
 	"Package" "BEE2_PORTAL_1"
 	"Package" "VALVE_TEST_ELEM"
 	"Package" "VALVE_BUTTONS"
+	"Package" "VALVE_GEOMETRY"
 }
 
 "Item"
