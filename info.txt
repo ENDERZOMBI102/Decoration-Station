@@ -230,6 +230,19 @@
 
 "Item"
 	{
+	"ID" "ITEM_WEAPON_STRIP"
+	"unstyled"    "1"
+	"Version"
+		{
+		"Styles"
+			{
+			"ANY_STYLE" "weaponstrip"
+			}
+		}
+	}
+
+"Item"
+	{
 	"ID" "ITEM_CONSOLE_COMMAND_ITEM"
 	"unstyled"    "1"
 	"Version"
@@ -240,7 +253,6 @@
 			}
 		}
 	}
-
 "ConfigGroup"
 	{
 	"ID"    "BEE2_DECOSTA_CONSOLE_COMMAND"
@@ -282,8 +294,7 @@
 			"29" "god"
 			"30" "noclip"
 			}
-		
-		"Tooltip" "Set the commands that will be run upon activation of the DecoSta's Console Command Item."
+		"Tooltip" "Set the commands that will be run upon activation of the Console Command Item."
 		}
 	}
 "Item"

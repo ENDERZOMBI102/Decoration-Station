@@ -1,8 +1,0 @@
-UnlitGeneric
-{
-$basetexture "flash4433/green_screen_color"
-$selfillum 1
-$surfaceprop glass
-$reflectivity "[0 0 0]"
-$nodecal 1
-}

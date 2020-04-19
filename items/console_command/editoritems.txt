@@ -6,14 +6,14 @@
 		{
 			"SubType"
 			{
-				"Name"			"DecoSta Console Command - Client"
+				"Name"			"Console Command - Client"
 				"Model"
 				{
 					"ModelName"		"logic_strip_and.3ds"
 				}
 				"Palette"
 				{
-					"Tooltip"		"DECOSTA CONSOLE COMMAND"
+					"Tooltip"		"CONSOLE COMMAND"
 					"Image"			"palette/clean/console_command_item.png"
 					"Position"		"1 0 0"
 				}
@@ -27,7 +27,7 @@
 			}
 			"SubType"
 			{
-				"Name"			"DecoSta Console Command - Server"
+				"Name"			"Console Command - Server"
 				"Model"
 				{
 					"ModelName"		"logic_strip_or.3ds"
@@ -42,7 +42,7 @@
 			}
 			"SubType"
 			{
-				"Name"			"DecoSta Console Command - All Clients"
+				"Name"			"Console Command - All Clients"
 				"Model"
 				{
 					"ModelName"		"logic_strip_not.3ds"

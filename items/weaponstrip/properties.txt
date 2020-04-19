@@ -1,0 +1,14 @@
+"Properties"
+	{
+	"Authors" "Flash4433"
+	"Tags" "Portal 2"
+	"Description"
+	{
+	"" "A logic item that, when it receives an input, strips the player of their current weapon."
+	}
+	"ent_count" "1"
+	"Icon"
+		{
+			"0"		"clean/weaponstrip.png"
+		}
+	}
