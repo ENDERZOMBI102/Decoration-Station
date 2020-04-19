@@ -1,0 +1,12 @@
+"Properties"
+{
+	"Authors" "saismee"
+	"Tags" "Portal 2;Geometry"
+	"Description"	"Creates a 3x2 voxel hole in the wall exposing some lights and BTS things. Use Timer to select style."
+	"infoURL" ""
+	"ent_count" "0"
+	"Icon"
+	{
+		"0" "clean/floating_panela.png"
+	}
+}

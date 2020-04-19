@@ -286,3 +286,14 @@
 		"Tooltip" "Set the commands that will be run upon activation of the DecoSta's Console Command Item."
 		}
 	}
+"Item"
+{
+	"ID" "ITEM_DAMAGED_WALL"
+	"Version"
+	{
+		"Styles"
+		{
+			"ANY_STYLE" "damaged_wall"
+		}
+	}
+}

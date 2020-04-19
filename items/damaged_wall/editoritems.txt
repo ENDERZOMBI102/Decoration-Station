@@ -1,0 +1,226 @@
+"Item"
+	{
+		"Type"		"ITEM_DAMAGED_WALL"
+		"Editor"
+		{
+			"SubType"
+			{
+				"Name"		"Damaged Wall"
+				"Model"
+				{
+					"ModelName"		"sentry.3ds"
+				}
+				"Palette"
+				{
+					"Tooltip"	"DAMAGED WALL"
+					"Image"		"palette/clean/floating_panela.png"
+					"Position"	"1 6 0"
+				}
+				"Sounds"
+				{
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
+				}
+			}
+			"MovementHandle"		"HANDLE_4_DIRECTIONS"
+			"InvalidSurface"		""
+			"CanAnchorOnBarriers"	"1"
+		}
+		"Properties"
+		{
+			"TimerDelay"
+			{
+				"DefaultValue"	"3"
+				"Index"			"1"
+			}
+		}
+		"Exporting"
+		{
+			"Instances"
+			{
+				"0"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_largehole.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"1"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_mediumhole.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"2"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_smallhole.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"3"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_tinyhole.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"4"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_corner_topleft.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"5"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_corner_topright.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"6"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_corner_bottomleft.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"7"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_corner_bottomright.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"8"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_wall_top.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"9"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_wall_right.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"10"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_wall_bottom.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"11"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_wall_left.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"12"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_wall_empty.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"13"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_topcubby.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"14"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_rightcubby.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"15"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_bottomcubby.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+				"16"
+				{
+					"Name"			"instances/BEE2/clean/items/decosta/damaged_wall/damaged_leftcubby.vmf"
+					"EntityCount"		"0"
+					"BrushCount"		"11"
+					"BrushSideCount"	"66"
+				}
+			}
+
+			"TargetName"		"Other"
+			"Offset"		"64 64 64"
+			"EmbeddedVoxels"
+			{
+				"Volume"
+				{
+					"Pos1" "-1 1 0"
+					"Pos2" "1 0 0"
+				}	
+			}
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+				"Voxel"
+				{
+					"Pos"		"-1 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+				"Voxel"
+				{
+					"Pos"		"1 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+				"Voxel"
+				{
+					"Pos"		"0 1 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+				"Voxel"
+				{
+					"Pos"		"-1 1 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+				"Voxel"
+				{
+					"Pos"		"1 1 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
+			}
+		}
+	}
