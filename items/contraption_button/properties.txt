@@ -1,0 +1,15 @@
+"Properties"
+{
+"Authors"		"Valve, FrozenDragon, Allison, Flash4433"
+"Tags"			"Portal 2; Test Elements; Educational Ver"
+"Description"
+{
+"" "Also known as the Contraption Cube Receptacle, it's a testing element exclusive to the Educational Version of Portal 2."
+"" "* It only outputs with the Contraption Cube."
+}
+"Ent_count"     "3"
+"Icon"
+	{
+		"0"		"clean/contraption_button.png"
+	}
+}

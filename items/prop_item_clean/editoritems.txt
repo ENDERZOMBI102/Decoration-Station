@@ -24,7 +24,7 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"		"HANDLE_4_DIRECTIONS"
+			"MovementHandle"		"HANDLE_8_DIRECTIONS"
 		}
 		"Properties"
 		{
@@ -42,20 +42,8 @@
 				{
 					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_00.vmf"
 				}
-				"1"
-				{
-					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_03.vmf"
-				}
-				"2"
-				{
-					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_06.vmf"
-				}
-				"3"
-				{
-					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_09.vmf"
-				}
 			}
-			"TargetName"		"fp"
+			"TargetName"		"prop"
 			"Offset"	"64 64 64"
 		}
 	}

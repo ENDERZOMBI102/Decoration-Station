@@ -6,74 +6,9 @@
 	"Package" "BEE2_CLEAN_STYLE"
 	"Package" "BEE2_PORTAL_1"
 	"Package" "VALVE_TEST_ELEM"
+	"Package" "VALVE_BUTTONS"
+	"Package" "VALVE_GEOMETRY"
 }
-
-"Item"
-	{
-	"ID" "ITEM_SKULL_BUTTON_PEDESTAL"
-	"all_conf"	"skull_ped_button"
-	"Version"
-		{
-		"ID"	"VER_BLUE_STRIPES"
-		"Name"	"Blue Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_blue_ped"
-			"BEE2_PORTAL_1"
-				{ 
-				"Base" "BEE2_CLEAN"
-				"Instances" 
-					{ 
-						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
-					}
-				"Config" "skull_blue_ped_p1.cfg"
-				}
-			}
-		}
-	"Version"
-		{
-		"ID"	"VER_RED_STRIPES"
-		"Name"	"Red Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_red_ped"
-			"BEE2_PORTAL_1"
-				{ 
-				"Base" "BEE2_CLEAN"
-				"Instances" 
-					{ 
-						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
-					}
-				"Config" "skull_red_ped_p1.cfg"
-				}
-			}
-		}
-	}
-
-"Item"
-	{
-	"ID" "ITEM_SKULL_CUBE"
-	"Version"
-		{
-		"ID"	"VER_BLUE_STRIPES"
-		"Name"	"Blue Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_blue_cube"
-			"BEE2_PORTAL_1"	"skull_blue_cube"
-			}
-		}
-	"Version"
-		{
-		"ID"	"VER_RED_STRIPES"
-		"Name"	"Red Stripes"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"skull_red_cube"
-			"BEE2_PORTAL_1"	"skull_red_cube"
-			}
-		}
-	}
 
 "Item"
 	{
@@ -209,6 +144,38 @@
 			}
 		}
 	}
+
+// "Item"
+// 	{
+// 	"ID" "ITEM_CONTRAPTION_BUTTON"
+// 	"all_conf"	"contraption_button"
+// 	"unstyled"	"1"
+// 	"Version"
+// 		{
+// 		"ID"	"VER_DEFAULT"
+// 		"Name"	"Default"
+// 		"Styles"
+// 			{
+// 			"ANY_STYLE" "contraption_button"
+// 			}
+// 		}
+// 	"Version"
+// 		{
+// 		"ID"	"VER_LIGHTNING_BUG"
+// 		"Name"	"Fully Black"
+// 		"Styles"
+// 			{
+// 			"BEE2_CLEAN"	"contraption_button_black"
+// 			"BEE2_PORTAL_1"	"contraption_button_black"
+// 			"BEE2_OVERGROWN" "contraption_button_black"
+// 			"BEE2_BTS" "contraption_button_black"
+// 			"BEE2_1950s" "contraption_button_black"
+// 			"BEE2_1960s" "contraption_button_black"
+// 			"BEE2_1970s" "contraption_button_black"
+// 			"BEE2_1980s" "contraption_button_black"
+// 			}
+// 		}
+// 	}
 	
 "Item"
 	{
@@ -237,6 +204,90 @@
 		"Styles"
 			{
 			"ANY_STYLE" "weaponstrip"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_SKULL_BUTTON_PEDESTAL"
+	"all_conf"	"skull_ped_button"
+	"Version"
+		{
+		"ID"	"VER_BLUE_STRIPES"
+		"Name"	"Blue Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_blue_ped"
+			"BEE2_PORTAL_1"
+				{ 
+				"Base" "BEE2_CLEAN"
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
+					}
+				"Config" "skull_blue_ped_p1.cfg"
+				}
+			"BEE2_OVERGROWN" "skull_blue_ped"
+			"BEE2_BTS" "skull_blue_ped"
+			"BEE2_1950s" "skull_blue_ped"
+			"BEE2_1960s" "skull_blue_ped"
+			"BEE2_1970s" "skull_blue_ped"
+			"BEE2_1980s" "skull_blue_ped"
+			}
+		}
+	"Version"
+		{
+		"ID"	"VER_RED_STRIPES"
+		"Name"	"Red Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_red_ped"
+			"BEE2_PORTAL_1"
+				{ 
+				"Base" "BEE2_CLEAN"
+				"Instances" 
+					{ 
+						"0" "instances/BEE2/p1/items/decosta/skull_pedestal.vmf" 
+					}
+				"Config" "skull_red_ped_p1.cfg"
+				}
+			"BEE2_OVERGROWN" "skull_red_ped"
+			"BEE2_BTS" "skull_red_ped"
+			"BEE2_1950s" "skull_red_ped"
+			"BEE2_1960s" "skull_red_ped"
+			"BEE2_1970s" "skull_red_ped"
+			"BEE2_1980s" "skull_red_ped"
+			}
+		}
+	}
+
+"Item"
+	{
+	"ID" "ITEM_SKULL_CUBE"
+	"Version"
+		{
+		"ID"	"VER_BLUE_STRIPES"
+		"Name"	"Blue Stripes"
+		"Styles"
+			{
+			"ANY_STYLE"	"skull_blue_cube"
+			}
+		}
+	"Version"
+		{
+		"ID"	"VER_RED_STRIPES"
+		"Name"	"Red Stripes"
+		"Styles"
+			{
+			"BEE2_CLEAN"	"skull_red_cube"
+			"BEE2_PORTAL_1"	"skull_red_cube"
+			"BEE2_OVERGROWN" "skull_red_cube"
+			"BEE2_BTS" "skull_red_cube"
+			"BEE2_1950s" "skull_red_cube"
+			"BEE2_1960s" "skull_red_cube"
+			"BEE2_1970s" "skull_red_cube"
+			"BEE2_1980s" "skull_red_cube"
 			}
 		}
 	}

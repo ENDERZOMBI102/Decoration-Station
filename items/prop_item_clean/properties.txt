@@ -7,6 +7,7 @@
 	"" "A random set of props that can be set with the Timer. 26-30 are custom, so you can make your own advanced set of props. "
 	"" "Just add them to `sdk_content/maps/instances/**style**/items/decosta/prop/`, under the name `prop_XX.vmf`, X being the number. "
 	"" ""
+	"" "* Infinite - Radio"
 	"" "* 3 - Table with Computer"
 	"" "* 4 - Table with Cake"
 	"" "* 5 - Table with Electronics (Train Demo)"
@@ -35,7 +36,6 @@
 	"" "* 28 - Custom"
 	"" "* 29 - Custom"
 	"" "* 30 - Custom"
-	"" "* Infinite - Radio"
 	}
 	"infoURL" "none"
 	"ent_count" "~5"

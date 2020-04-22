@@ -1,0 +1,17 @@
+"Properties"
+{
+"Authors"		"Valve, FrozenDragon, Allison, Flash4433"
+"Tags"			"Portal 2; Test Elements; Educational Ver"
+"Description"
+{
+"" "Also known as the Contraption Cube Receptacle, it's a testing element exclusive to the Educational Version of Portal 2."
+"" "* It only outputs with the Contraption Cube."
+"" ""
+"" "* In Educational Version, the item is completely black. It probably has Render Color set to 0 0 0 instead of 255 255 255, so this version simulates that effect."
+}
+"Ent_count"     "3"
+"Icon"
+	{
+		"0"		"clean/contraption_buttonb.png"
+	}
+}
