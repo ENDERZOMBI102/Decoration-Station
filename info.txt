@@ -145,37 +145,37 @@
 		}
 	}
 
-"Item"
-	{
-	"ID" "ITEM_CONTRAPTION_BUTTON"
-	"all_conf"	"contraption_button"
-	"unstyled"	"1"
-	"Version"
-		{
-		"ID"	"VER_DEFAULT"
-		"Name"	"Default"
-		"Styles"
-			{
-			"ANY_STYLE" "contraption_button"
-			}
-		}
-	"Version"
-		{
-		"ID"	"VER_LIGHTNING_BUG"
-		"Name"	"Fully Black"
-		"Styles"
-			{
-			"BEE2_CLEAN"	"contraption_button_black"
-			"BEE2_PORTAL_1"	"contraption_button_black"
-			"BEE2_OVERGROWN" "contraption_button_black"
-			"BEE2_BTS" "contraption_button_black"
-			"BEE2_1950s" "contraption_button_black"
-			"BEE2_1960s" "contraption_button_black"
-			"BEE2_1970s" "contraption_button_black"
-			"BEE2_1980s" "contraption_button_black"
-			}
-		}
-	}
+// "Item"
+// 	{
+// 	"ID" "ITEM_CONTRAPTION_BUTTON"
+// 	"all_conf"	"contraption_button"
+// 	"unstyled"	"1"
+// 	"Version"
+// 		{
+// 		"ID"	"VER_DEFAULT"
+// 		"Name"	"Default"
+// 		"Styles"
+// 			{
+// 			"ANY_STYLE" "contraption_button"
+// 			}
+// 		}
+// 	"Version"
+// 		{
+// 		"ID"	"VER_LIGHTNING_BUG"
+// 		"Name"	"Fully Black"
+// 		"Styles"
+// 			{
+// 			"BEE2_CLEAN"	"contraption_button_black"
+// 			"BEE2_PORTAL_1"	"contraption_button_black"
+// 			"BEE2_OVERGROWN" "contraption_button_black"
+// 			"BEE2_BTS" "contraption_button_black"
+// 			"BEE2_1950s" "contraption_button_black"
+// 			"BEE2_1960s" "contraption_button_black"
+// 			"BEE2_1970s" "contraption_button_black"
+// 			"BEE2_1980s" "contraption_button_black"
+// 			}
+// 		}
+// 	}
 	
 "Item"
 	{
