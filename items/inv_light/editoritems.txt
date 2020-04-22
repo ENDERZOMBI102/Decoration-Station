@@ -34,8 +34,8 @@
 			{
 				"Name"				"instances/BEE2/clean/items/decosta/inv_light.vmf"
 				"EntityCount"		"1"
-				"BrushCount"		"6"
-				"BrushSideCount"	"36"
+				"BrushCount"		"0"
+				"BrushSideCount"	"0"
 			}
 		}
 		"TargetName"		"ls"
