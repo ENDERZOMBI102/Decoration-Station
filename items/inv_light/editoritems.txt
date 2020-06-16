@@ -26,6 +26,14 @@
 		}
 		"MovementHandle"        "HANDLE_8_POSITIONS"
 	}
+	"Properties"
+	{
+	"CubeType"
+		{
+		"DefaultValue" "0"
+		"Index" "1"
+		}
+	}
 	"Exporting"
 	{
 		"Instances"

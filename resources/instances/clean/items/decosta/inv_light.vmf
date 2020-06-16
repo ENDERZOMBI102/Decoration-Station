@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "3"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32,8 +32,8 @@ entity
 {
 	"id" "517"
 	"classname" "light"
-	"_constant_attn" "10000"
-	"_light" "183 204 218 20"
+	"_constant_attn" "1"
+	"_light" "$light_color 20"
 	"_lightHDR" "-1 -1 -1 -1"
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
@@ -53,8 +53,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-19.9436 62.7449 16.445]"
-		"look" "[-5.3097 22.4808 -28.3156]"
+		"position" "[24.0302 81.8896 34.7493]"
+		"look" "[1.28669 28.4294 13.2179]"
 	}
 }
 cordons

@@ -1,10 +1,12 @@
 "Properties"
 {
-	"Authors"		"ENDERZOMBI102"
+	"Authors"		"ENDERZOMBI102, Flash4433"
 	"Tags"			"Portal 2; Geometry; Lighting"
 	"Description"
 	{
-		"" "A very simple invisible light."
+		"" "A invisible light. Cube Type to choose from Normal, Warm or Cold."
+		"" ""
+		"" "* Sphere-type and Franken-type is unused."
 	}
 	"ent_count"	"1"
 	"Icon" 
