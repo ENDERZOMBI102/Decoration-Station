@@ -33,6 +33,11 @@
 		"DefaultValue" "0"
 		"Index" "1"
 		}
+	"TimerDelay"
+		{
+		"DefaultValue" "0"
+		"Index" "2"
+		}
 	}
 	"Exporting"
 	{
@@ -46,7 +51,7 @@
 				"BrushSideCount"	"0"
 			}
 		}
-		"TargetName"		"ls"
+		"TargetName"		"invl"
 		"Offset"	"64 64 64"
 	}
 }

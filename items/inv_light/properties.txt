@@ -1,12 +1,14 @@
 "Properties"
 {
-	"Authors"		"ENDERZOMBI102, Flash4433"
+	"Authors"		"ENDERZOMBI102, Flash4433, Libbybapa"
 	"Tags"			"Portal 2; Geometry; Lighting"
 	"Description"
 	{
-		"" "A invisible light. Cube Type to choose from Normal, Warm or Cold."
+		"" "A invisible light. "
 		"" ""
-		"" "* Sphere-type and Franken-type is unused."
+		"" "* Cube Type to choose from Normal, Warm or Cold."
+		"" "* Sphere-type sets the color as custom.  The color will match the same colors used by the cube coloriser and can be customized on the items tab of the Style/Items Properties palette.  That gives over 6 million colors to choose from and up to 27 different colors in a single map."
+		"" "* Franken-type is unused."
 	}
 	"ent_count"	"1"
 	"Icon" 
