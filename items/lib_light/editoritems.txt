@@ -32,27 +32,27 @@
 	"ButtonType"
 		{
 		"DefaultValue" "0"
-		"Index" "0"
+		"Index" "1"
 		}
 	"CubeType"
 		{
 		"DefaultValue" "0"
-		"Index" "1"
+		"Index" "2"
 		}
 	"StartOpen"
 		{
 		"DefaultValue" "1"
-		"Index" "2"
+		"Index" "3"
 		}
 	"StartReversed"
 		{
 		"DefaultValue"  "0"
-		"Index" "3"
+		"Index" "4"
 		}
 	"TimerDelay"
 		{
 		"DefaultValue" "0"
-		"Index" "4"
+		"Index" "5"
 		}
 	}
 "Exporting"
