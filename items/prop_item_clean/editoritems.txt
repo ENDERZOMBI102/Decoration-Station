@@ -40,7 +40,7 @@
 			{
 				"0"
 				{
-					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_00.vmf"
+					"Name"				"instances/BEE2/clean/items/decosta/prop/prop_0.vmf"
 				}
 			}
 			"TargetName"		"prop"
