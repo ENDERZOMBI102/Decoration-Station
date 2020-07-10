@@ -5,7 +5,7 @@
 	"Description"
 	{
 	"" "A random set of props that can be set with the Timer. 26-30 are custom, so you can make your own advanced set of props. "
-	"" "Just add them to `sdk_content/maps/instances/**style**/items/decosta/prop/`, under the name `prop_XX.vmf`, X being the number. "
+	"" "Just add them to `sdk_content/maps/instances/BEE2/**style**/items/decosta/prop/`, under the name `prop_XX.vmf`, XX being the number. "
 	"" ""
 	"" "* Infinite - Radio"
 	"" "* 3 - Table with Computer"
