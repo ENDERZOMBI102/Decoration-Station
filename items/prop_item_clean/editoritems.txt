@@ -24,7 +24,7 @@
 					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
-			"MovementHandle"		"HANDLE_8_DIRECTIONS"
+			"MovementHandle"		"HANDLE_36_DIRECTIONS"
 		}
 		"Properties"
 		{
