@@ -1,6 +1,6 @@
 "Properties"
 	{
-	"Authors"		"Valve, Flash4433, Allison"
+	"Authors"		"Valve, FrozenDragon, Allison, Flash4433"
 	"Tags"			"Portal 2; Educational Ver; Test Elements"
 	"Description"	"The Contraption Cube from the Educational Version of Portal 2. You could control the weight, bounciness and friction. BROKEN"
 	"Ent_count"     "Dropperless: 1\nDropper: 16"
