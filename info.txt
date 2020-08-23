@@ -176,6 +176,18 @@
 // 			}
 // 		}
 // 	}
+//
+// "Item"
+//	{
+//	"ID" "ITEM_CONTRAPTION_CUBE"
+//	"Version"
+//		{
+//		"Styles"
+//			{
+//			"ANY_STYLE" "contraption_cube"
+//			}
+//		}
+//	}
 	
 "Item"
 	{
