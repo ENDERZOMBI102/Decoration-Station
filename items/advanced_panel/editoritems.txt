@@ -1,170 +1,170 @@
 "Item"
 {
-"Type" "ITEM_ADVANCED_PANEL"
-"ItemClass"	"ItemButtonFloor"
-"Editor"
+	"Type" "ITEM_ADVANCED_PANEL"
+	"ItemClass"	"ItemButtonFloor"
+	"Editor"
 	{
-	"SubTypeProperty" "CubeType"
-	"SubType"
+		"SubTypeProperty" "CubeType"
+		"SubType"
 		{
-		"Name" "Advanced Panel"
-		"Model"
+			"Name" "Advanced Panel"
+			"Model"
 			{
-			"ModelName" "bee2_block_special.3ds"
+				"ModelName" "bee2_block_special.3ds"
+				}
+			"Palette"
+			{
+				"Tooltip" "ADVANCED PANEL"
+				"Image" "palette/clean/floating_panels.png"
 			}
-		"Palette"
+			"Sounds"
 			{
-			"Tooltip" "ADVANCED PANEL"
-			"Image" "palette/clean/floating_panels.png"
-			}
-		"Sounds"
-			{
-			"SOUND_CREATED" "P2Editor.PlaceButton"
-			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
-			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
-			"SOUND_DELETED" "P2Editor.RemoveButton"
+				"SOUND_CREATED" "P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+				"SOUND_DELETED" "P2Editor.RemoveButton"
 			}
 		}
-	"SubType"
+		"SubType"
 		{
-		"Name" "Panel Offset 1/4"
-		"Model"
+			"Name" "Panel Offset 1/4"
+			"Model"
 			{
-			"ModelName" "bee2_block_flat_quart.3ds"
+				"ModelName" "bee2_block_flat_quart.3ds"
 			}
-		"Sounds"
+			"Sounds"
 			{
-			"SOUND_CREATED" "P2Editor.PlaceButton"
-			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
-			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
-			"SOUND_DELETED" "P2Editor.RemoveButton"
+				"SOUND_CREATED" "P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+				"SOUND_DELETED" "P2Editor.RemoveButton"
 			}
 		}
-	"SubType"
+		"SubType"
 		{
-		"Name" "Panel Offset 1/2"
-		"Model"
+			"Name" "Panel Offset 1/2"
+			"Model"
 			{
-			"ModelName" "bee2_block_flat_half.3ds"
+				"ModelName" "bee2_block_flat_half.3ds"
 			}
-		"Sounds"
+			"Sounds"
 			{
-			"SOUND_CREATED" "P2Editor.PlaceButton"
-			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
-			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
-			"SOUND_DELETED" "P2Editor.RemoveButton"
+				"SOUND_CREATED" "P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+				"SOUND_DELETED" "P2Editor.RemoveButton"
 			}
 		}
-	"SubType"
+		"SubType"
 		{
-		"Name" "Panel Offset 3/4"
-		"Model"
+			"Name" "Panel Offset 3/4"
+			"Model"
 			{
-			"ModelName" "bee2_block_flat_3quart.3ds"
+				"ModelName" "bee2_block_flat_3quart.3ds"
 			}
-		"Sounds"
+			"Sounds"
 			{
-			"SOUND_CREATED" "P2Editor.PlaceButton"
-			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
-			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
-			"SOUND_DELETED" "P2Editor.RemoveButton"
+				"SOUND_CREATED" "P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+				"SOUND_DELETED" "P2Editor.RemoveButton"
 			}
 		}
-	"SubType"
+		"SubType"
 		{
-		"Name" "Panel Offset 1"
-		"Model"
+			"Name" "Panel Offset 1"
+			"Model"
 			{
-			"ModelName" "bee2_angled_60.mdl"
+				"ModelName" "bee2_angled_60.mdl"
 			}
-		"Sounds"
+			"Sounds"
 			{
-			"SOUND_CREATED" "P2Editor.PlaceButton"
-			"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
-			"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
-			"SOUND_DELETED" "P2Editor.RemoveButton"
+				"SOUND_CREATED" "P2Editor.PlaceButton"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.DropperDisabled"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.DropperEnabled"
+				"SOUND_DELETED" "P2Editor.RemoveButton"
 			}
 		}
-		"MovementHandle" "NONE"
+		"MovementHandle" "HANDLE_NONE"
 		"DesiredFacing" "DESIRES_UP"
 	}
-"Properties"
+	"Properties"
 	{
-	"ButtonType"
+		"ButtonType"
 		{
-		"DefaultValue" "0"
-		"Index" "1"
+			"DefaultValue" "0"
+			"Index" "1"
 		}
-	"CubeType"
+		"CubeType"
 		{
-		"DefaultValue" "0"
-		"Index" "2"
+			"DefaultValue" "0"
+			"Index" "2"
 		}
-	"StartOpen"
+		"StartOpen"
 		{
-		"DefaultValue" "1"
-		"Index" "3"
+			"DefaultValue" "1"
+			"Index" "3"
 		}
-	"StartReversed"
+		"StartReversed"
 		{
-		"DefaultValue"  "0"
-		"Index" "4"
+			"DefaultValue"  "0"
+			"Index" "4"
 		}
-	"StartEnabled"
+		"StartEnabled"
 		{
-		"DefaultValue" "1"
-		"Index" "5"
+			"DefaultValue" "1"
+			"Index" "5"
 		}
 	}
-"Exporting"
+	"Exporting"
 	{
-	"Instances"
+		"Instances"
 		{
-		"0"
+			"0"
 			{
-			"Name" "instances/bee2/clean/items/white_8.vmf"
-			"EntityCount" "1"
-			"BrushCount" "1"
-			"BrushSideCount" "6"
+				"Name" "instances/bee2/clean/items/white_8.vmf"
+				"EntityCount" "1"
+				"BrushCount" "1"
+				"BrushSideCount" "6"
 			}
-		"1"
+			"1"
 			{
-			"Name" "instances/bee2/clean/items/black_8.vmf"
-			"EntityCount" "1"
-			"BrushCount" "1"
-			"BrushSideCount" "6"
+				"Name" "instances/bee2/clean/items/black_8.vmf"
+				"EntityCount" "1"
+				"BrushCount" "1"
+				"BrushSideCount" "6"
 			}
-		"2"
+			"2"
 			{
-			"Name" "instances/bee2/clean/items/white_16.vmf"
-			"EntityCount" "1"
-			"BrushCount" "2"
-			"BrushSideCount" "12"
+				"Name" "instances/bee2/clean/items/white_16.vmf"
+				"EntityCount" "1"
+				"BrushCount" "2"
+				"BrushSideCount" "12"
 			}
-		"3"
+			"3"
 			{
-			"Name" "instances/bee2/clean/items/black_16.vmf"
-			"EntityCount" "1"
-			"BrushCount" "2"
-			"BrushSideCount" "12"
+				"Name" "instances/bee2/clean/items/black_16.vmf"
+				"EntityCount" "1"
+				"BrushCount" "2"
+				"BrushSideCount" "12"
 			}
-		"4"
+			"4"
 			{
-			"Name" "instances/bee2/clean/items/white_24.vmf"
-			"EntityCount" "1"
-			"BrushCount" "2"
-			"BrushSideCount" "12"
+				"Name" "instances/bee2/clean/items/white_24.vmf"
+				"EntityCount" "1"
+				"BrushCount" "2"
+				"BrushSideCount" "12"
 			}
-		"5"
+			"5"
 			{
-			"Name" "instances/bee2/clean/items/black_24.vmf"
-			"EntityCount" "1"
-			"BrushCount" "2"
-			"BrushSideCount" "12"
+				"Name" "instances/bee2/clean/items/black_24.vmf"
+				"EntityCount" "1"
+				"BrushCount" "2"
+				"BrushSideCount" "12"
+				}
 			}
-		}
-	"TargetName" "advanced_panel"
-	"Offset" "64 64 64"
+		"TargetName" "advanced_panel"
+		"Offset" "64 64 64"
 	}
 }
 
